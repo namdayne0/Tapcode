@@ -1,2 +1,0 @@
-# Tapcode
-Nam tập code

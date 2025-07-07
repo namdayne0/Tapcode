@@ -1,0 +1,42 @@
+# Cú pháp mới:
+# ten_khu_vuc:
+#   ...
+#   check-y: false   # (Tùy chọn) Đặt là false để khu vực có hiệu lực từ trời xuống đất (2D). Mặc định là true (3D).
+#   particle:
+#     type: 'BLOCK_CRACK'
+#     particle-data: 'STONE'  # (Tùy chọn) Dữ liệu cho các particle đặc biệt. Ví dụ: STONE, DIRT, DIAMOND_SWORD...
+#     ...
+
+khu-afk-2d:
+  world: world
+  pos1: 200,64,200
+  pos2: 220,64,220
+  check-y: false # Khu vực này sẽ là một cột thẳng đứng
+  candy-amount: 10
+  candy-delay: 1m
+
+khu-da-vo:
+  world: world
+  pos1: 50,64,50
+  pos2: 60,70,60
+  check-y: true # Khu vực 3D bình thường
+  candy-amount: 5
+  candy-delay: 10s
+  particle:
+    type: BLOCK_CRACK
+    count: 20
+    speed: 0.1
+    offset-x: 2.5
+    offset-y: 2.5
+    offset-z: 2.5
+    particle-data: STONE # BẮT BUỘC cho particle BLOCK_CRACK, chỉ định loại block sẽ vỡ.
+test:
+  world: world
+  pos1: -151,74,-70
+  pos2: -147,74,-66
+  candy-type: keo_do
+  candy-amount: 1
+  candy-delay: 1s
+  permission: keoframer.area.test
+  no-push: false
+  check-y: true

@@ -1,0 +1,18 @@
+# Các lệnh rút gọn của bạn
+# Cú pháp:
+# <lệnh-rút-gọn-của-bạn>:
+#   original-command: <lệnh-gốc-muốn-chạy>
+#   use: <console/player> # console: lệnh sẽ được chạy bởi console, player: lệnh sẽ được chạy bởi người chơi
+
+haha:
+  original-command: say haha
+  use: player
+gay:
+  original-command: say gay
+  use: player
+duygay:
+  original-command: say duy sieu gay
+  use: player
+test:
+  original-command: say test
+  use: player

@@ -1,0 +1,1 @@
+java -Xmx8G -Xms128M --add-modules=jdk.incubator.vector -jar paper-1.20.1-196.jar

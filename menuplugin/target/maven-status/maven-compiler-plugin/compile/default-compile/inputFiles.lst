@@ -1,0 +1,11 @@
+/workspaces/Tapcode/menuplugin/src/main/java/com/namdz/keomenu/hook/VaultHook.java
+/workspaces/Tapcode/menuplugin/src/main/java/com/namdz/keomenu/menu/MenuItem.java
+/workspaces/Tapcode/menuplugin/src/main/java/com/namdz/keomenu/menu/Requirement.java
+/workspaces/Tapcode/menuplugin/src/main/java/com/namdz/keomenu/KeoMenu.java
+/workspaces/Tapcode/menuplugin/src/main/java/com/namdz/keomenu/hook/KeoFramerHook.java
+/workspaces/Tapcode/menuplugin/src/main/java/com/namdz/keomenu/listener/MenuListener.java
+/workspaces/Tapcode/menuplugin/src/main/java/com/namdz/keomenu/hook/PlaceholderAPIHook.java
+/workspaces/Tapcode/menuplugin/src/main/java/com/namdz/keomenu/menu/CustomMenu.java
+/workspaces/Tapcode/menuplugin/src/main/java/com/namdz/keomenu/menu/MenuManager.java
+/workspaces/Tapcode/menuplugin/src/main/java/com/namdz/keomenu/commands/KeoMenuCommand.java
+/workspaces/Tapcode/menuplugin/src/main/java/com/namdz/keomenu/util/ChatColorUtil.java

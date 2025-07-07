@@ -1,0 +1,28 @@
+message-prefix: "&b[KeoFramer]&r"
+wand-item: "BLAZE_ROD"
+
+candy-types:
+  keo_do:
+    display-name: "&cKẹo Đỏ"
+  keo_xanh:
+    display-name: "&aKẹo Xanh"
+  keo_vang:
+    display-name: "&eKẹo Vàng"
+
+booster-permissions:
+  keoframer.boost.vip1: 2.0
+# Tùy chỉnh hệ thống ép đồ
+enchanting:
+  success-rate: 75
+  anvil-cost: 0
+
+# Tùy chỉnh các vật phẩm đặc biệt
+items:
+  booster-crystal-material: "AMETHYST_SHARD"
+  remover-powder-material: "LIME_DYE"
+
+# Tin nhắn có thể tùy chỉnh
+messages:
+  no-permission: "&cBạn không có quyền sử dụng lệnh này."
+  shop-purchase-success: "&aMua vật phẩm thành công!"
+  shop-not-enough-candy: "&cBạn không đủ kẹo để mua vật phẩm này!"

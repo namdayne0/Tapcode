@@ -1,0 +1,25 @@
+# Các lệnh rút gọn của bạn
+# Cú pháp:
+# <lệnh-rút-gọn-của-bạn>:
+#   original-command: <lệnh-gốc-muốn-chạy>
+#   use: <console/player> # console: lệnh sẽ được chạy bởi console, player: lệnh sẽ được chạy bởi người chơi
+
+test:
+  original-command: say hello,world
+  use: console
+
+myhome:
+  original-command: essentials:home %player%
+  use: player
+
+opme:
+  original-command: op %player%
+  use: console
+
+gm:
+  original-command: gamemode creative %player%
+  use: player
+
+tpto:
+  original-command: tp %player%
+  use: player

@@ -1,0 +1,21 @@
+name: KeoMenu
+version: 1.0
+main: com.namdz.keomenu.KeoMenu
+api-version: 1.20
+depend: [KeoFramer]
+softdepend: [PlaceholderAPI, Vault]
+
+commands:
+  keomenu:
+    description: Lệnh quản lý plugin KeoMenu.
+    usage: /keomenu [reload|open <menu_id>|list]
+    permission: keomenu.admin
+permissions:
+  keomenu.admin:
+    description: Cung cấp quyền quản lý plugin KeoMenu (bao gồm reload, list).
+    default: op
+  keomenu.open:
+    description: Cho phép mở bất kỳ menu nào bằng lệnh '/keomenu open <menu_id>'.
+    default: op
+  # KHÔNG CẦN ĐỊNH NGHĨA QUYỀN RIÊNG CHO TỪNG MENU Ở ĐÂY NỮA!
+  # Các quyền như keomenu.menu.example hay keomenu.candyexchange sẽ được tự động đăng ký/kiểm tra dựa trên config của menu.

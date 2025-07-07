@@ -1,0 +1,84 @@
+# Định danh duy nhất cho menu này.
+menu_id: candy_exchange_menu
+
+# Tiêu đề của menu.
+menu_title: "&e&lĐổi Kẹo Lấy Item"
+
+# Số hàng của inventory.
+rows: 3
+
+# Các lệnh để mở menu này.
+open_commands:
+  - "doikeo"
+  - "keodoithuong"
+
+items:
+  # Item ở slot 11: Đổi 10 Kẹo Đỏ lấy 1 Viên Kim Cương
+  '11':
+    material: DIAMOND # Vật phẩm sẽ hiển thị trong menu
+    name: "&b&lĐổi 10 Kẹo Đỏ"
+    lore:
+      - "&7Nhận: &a1x Kim Cương"
+      - "&7Bạn đang có &c%keomenu_keo_do% &7Kẹo Đỏ."
+      - ""
+      - "&eClick để đổi!"
+    actions:
+      - "[take_candy] keo_do 10" # Lấy 10 Kẹo Đỏ
+      - "[command] give %player% diamond 1" # Trao 1 viên kim cương cho người chơi
+      - "[message] &aBạn đã đổi 10 Kẹo Đỏ lấy 1 Kim Cương!"
+    requirements:
+      candy:
+        keo_do:
+          amount: "10" # Yêu cầu có 10 Kẹo Đỏ
+          message: "&cBạn không đủ 10 Kẹo Đỏ để đổi Kim Cương!"
+    update_interval: 20 # Cập nhật mỗi giây để hiển thị số kẹo chính xác
+
+  # Item ở slot 13: Đổi 5 Kẹo Xanh lấy 1 Thanh Sắt
+  '13':
+    material: IRON_INGOT
+    name: "&9&lĐổi 5 Kẹo Xanh"
+    lore:
+      - "&7Nhận: &a1x Thanh Sắt"
+      - "&7Bạn đang có &9%keomenu_keo_xanh% &7Kẹo Xanh."
+      - ""
+      - "&eClick để đổi!"
+    actions:
+      - "[take_candy] keo_xanh 5" # Lấy 5 Kẹo Xanh
+      - "[command] give %player_name% iron_ingot 1" # Trao 1 thanh sắt
+      - "[message] &aBạn đã đổi 5 Kẹo Xanh lấy 1 Thanh Sắt!"
+    requirements:
+      candy:
+        keo_xanh:
+          amount: "5"
+          message: "&cBạn không đủ 5 Kẹo Xanh để đổi Thanh Sắt!"
+    update_interval: 20
+
+  # Item ở slot 15: Đổi 3 Kẹo Vàng lấy 1 Cây Gậy (Blaze Rod)
+  '15':
+    material: BLAZE_ROD
+    name: "&6&lĐổi 3 Kẹo Vàng"
+    lore:
+      - "&7Nhận: &a1x Gậy Lửa"
+      - "&7Bạn đang có &6%keomenu_keo_vang% &7Kẹo Vàng."
+      - ""
+      - "&eClick để đổi!"
+    actions:
+      - "[take_candy] keo_vang 3" # Lấy 3 Kẹo Vàng
+      - "[command] give %player_name% blaze_rod 1" # Trao 1 gậy lửa
+      - "[message] &aBạn đã đổi 3 Kẹo Vàng lấy 1 Gậy Lửa!"
+    requirements:
+      candy:
+        keo_vang:
+          amount: "3"
+          message: "&cBạn không đủ 3 Kẹo Vàng để đổi Gậy Lửa!"
+    update_interval: 20
+
+  # Item ở slot 22: Nút đóng menu
+  '22':
+    material: BARRIER
+    name: "&c&lĐóng Menu"
+    lore:
+      - "&7Click để thoát khỏi menu đổi kẹo."
+    actions:
+      - "[close]"
+    update_interval: 0

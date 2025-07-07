@@ -1,0 +1,1194 @@
+[10:46:52] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[10:46:55] [ServerMain/INFO]: Loaded 7 recipes
+[10:46:56] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[10:46:56] [Server thread/INFO]: Loading properties
+[10:46:56] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[10:46:58] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[10:46:58] [Server thread/INFO]: Using 4 threads for Netty based IO
+[10:46:58] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[10:46:58] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[10:46:59] [Server thread/INFO]: Default game type: SURVIVAL
+[10:46:59] [Server thread/INFO]: Generating keypair
+[10:46:59] [Server thread/INFO]: Starting Minecraft server on *:19132
+[10:46:59] [Server thread/INFO]: Using epoll channel type
+[10:47:00] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[10:47:00] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[10:47:02] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[10:47:02] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.1+6763-2e55f4f
+[10:47:03] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@6db5c8a0]
+[10:47:03] [Server thread/INFO]: [KeoFramer] Loading server plugin KeoFramer v1.0-SNAPSHOT
+[10:47:03] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.2.2
+[10:47:03] [Server thread/INFO]: [KeoMenu] Loading server plugin KeoMenu v1.0
+[10:47:03] [Server thread/INFO]: [playit-gg] Loading server plugin playit-gg v0.1.4
+[10:47:03] [Server thread/INFO]: [RutGonLenhPlugin] Loading server plugin RutGonLenhPlugin v1.0
+[10:47:03] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[10:47:03] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.1+6763-2e55f4f
+[10:47:03] [Server thread/ERROR]: [WorldEdit] [STDERR] SLF4J: No SLF4J providers were found.
+[10:47:03] [Server thread/WARN]: Nag author(s): '[EngineHub]' of 'WorldEdit v7.3.1+6763-2e55f4f' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[10:47:03] [Server thread/ERROR]: [WorldEdit] [STDERR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+[10:47:03] [Server thread/ERROR]: [WorldEdit] [STDERR] SLF4J: See http://www.slf4j.org/codes.html#noProviders for further details.
+[10:47:09] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[10:47:09] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[10:47:09] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
+[10:47:12] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[10:47:12] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[10:47:12] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[10:47:12] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[10:47:12] [Server thread/INFO]: Preparing level "world"
+[10:47:14] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[10:47:14] [Server thread/INFO]: Time elapsed: 548 ms
+[10:47:14] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[10:47:14] [Server thread/INFO]: Time elapsed: 108 ms
+[10:47:14] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[10:47:15] [Server thread/INFO]: Time elapsed: 147 ms
+[10:47:15] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[10:47:20] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[10:47:20] [Server thread/INFO]: [KeoFramer] Enabling KeoFramer v1.0-SNAPSHOT
+[10:47:21] [Server thread/ERROR]: Error occurred while enabling KeoFramer v1.0-SNAPSHOT (Is it up to date?)
+java.nio.file.NoSuchFileException: /workspaces/Tapcode/plugins/keoframer-1.0-SNAPSHOT.jar
+	at jdk.nio.zipfs.ZipFileSystem.<init>(ZipFileSystem.java:166) ~[jdk.zipfs:?]
+	at jdk.nio.zipfs.ZipFileSystemProvider.getZipFileSystem(ZipFileSystemProvider.java:125) ~[jdk.zipfs:?]
+	at jdk.nio.zipfs.ZipFileSystemProvider.newFileSystem(ZipFileSystemProvider.java:120) ~[jdk.zipfs:?]
+	at java.nio.file.FileSystems.newFileSystem(FileSystems.java:528) ~[?:?]
+	at java.nio.file.FileSystems.newFileSystem(FileSystems.java:400) ~[?:?]
+	at com.namdz.keoframer.KeoFramerL10.a(Unknown Source) ~[keoframer-1.0-SNAPSHOT.jar:?]
+	at com.namdz.keoframer.KeoFramer.onEnable(KeoFramer.java) ~[keoframer-1.0-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:642) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:553) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:635) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:434) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:308) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1100) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[10:47:21] [Server thread/INFO]: [KeoFramer] Disabling KeoFramer v1.0-SNAPSHOT
+[10:47:21] [Server thread/INFO]: [KeoFramer] KeoFramer đã được tắt!
+[10:47:21] [Server thread/INFO]: [TAB] Enabling TAB v5.2.2
+[10:47:23] [Server thread/INFO]: [TAB] Enabled in 1586ms
+[10:47:23] [Server thread/INFO]: [KeoMenu] Enabling KeoMenu v1.0
+[10:47:23] [Server thread/ERROR]: Error occurred while enabling KeoMenu v1.0 (Is it up to date?)
+java.lang.NoClassDefFoundError: com/namdz/keoframer/KeoFramer
+	at com.namdz.keomenu.KeoMenu.setupAPI(KeoMenu.java:79) ~[KeoMenu-1.0-SNAPSHOT.jar:?]
+	at com.namdz.keomenu.KeoMenu.onEnable(KeoMenu.java:27) ~[KeoMenu-1.0-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:642) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:553) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:635) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:434) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:308) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1100) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.ClassNotFoundException: com.namdz.keoframer.KeoFramer
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:183) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:150) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	... 14 more
+[10:47:23] [Server thread/INFO]: [KeoMenu] Disabling KeoMenu v1.0
+[10:47:23] [Server thread/INFO]: [KeoMenu] Plugin KeoMenu đã được vô hiệu hóa.
+[10:47:23] [Server thread/INFO]: [playit-gg] Enabling playit-gg v0.1.4
+[10:47:27] [Thread-17/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret key found, checking
+[10:47:27] [Thread-17/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[10:47:27] [Server thread/INFO]: [RutGonLenhPlugin] Enabling RutGonLenhPlugin v1.0
+[10:47:28] [Server thread/INFO]: [RutGonLenhPlugin] RutGonLenhPlugin đã được bật!
+[10:47:28] [Server thread/INFO]: [RutGonLenhPlugin] Đã truy cập CommandMap thành công.
+[10:47:28] [Server thread/INFO]: [RutGonLenhPlugin] Đang tải các lệnh rút gọn từ commands.yml...
+[10:47:28] [Server thread/INFO]: [RutGonLenhPlugin] Đã đăng ký lệnh rút gọn: /haha -> say haha
+[10:47:28] [Server thread/INFO]: [RutGonLenhPlugin] Đã đăng ký lệnh rút gọn: /gay -> say gay
+[10:47:28] [Server thread/INFO]: [RutGonLenhPlugin] Đã đăng ký lệnh rút gọn: /duygay -> say duy sieu gay
+[10:47:28] [Server thread/INFO]: [RutGonLenhPlugin] Đã đăng ký lệnh rút gọn: /test -> say test
+[10:47:28] [Server thread/INFO]: [RutGonLenhPlugin] Đã tải xong các lệnh rút gọn.
+[10:47:28] [Server thread/INFO]: [RutGonLenhPlugin] Lệnh /rgl đã được đăng ký thành công.
+[10:47:28] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[10:47:28] [Server thread/INFO]: Running delayed init tasks
+[10:47:28] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[10:47:28] [Server thread/INFO]: Done (32.103s)! For help, type "help"
+[10:47:28] [Server thread/INFO]: Timings Reset
+[10:47:30] [Thread-17/INFO]: [gg.playit.minecraft.PlayitKeysSetup] found minecraft java tunnel: virginia-needle.joinmc.link
+[10:47:30] [Thread-17/INFO]: [gg.playit.minecraft.PlayitManager] keys and tunnel setup
+[10:47:30] [Thread-17/INFO]: playit.gg: WARNING:  plugin is running with a guest account
+[10:47:30] [Thread-17/INFO]: playit.gg: see server console for setup URL
+[10:47:31] [Thread-17/INFO]: [gg.playit.minecraft.PlayitManager] setup playit.gg account: https://playit.gg/login/guest-account/0001000000000000000000159e42686a5443010000000002f8fca8f2c6d0894f23c3d3ada08d5f28b64fbe355879507a26484a91bf6bc566
+[10:47:31] [Thread-17/INFO]: playit.gg: tunnel setup
+[10:47:31] [Thread-17/INFO]: playit.gg: virginia-needle.joinmc.link
+[10:47:32] [Thread-17/WARN]: [gg.playit.control.ChannelSetup] Got IO error working with :control.playit.gg/2602:fbaf:848:0:0:0:0:1, error : java.net.SocketException: Network is unreachable
+[10:47:32] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[10:47:32] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[10:47:32] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[10:47:32] [Server thread/INFO]: Using 4 threads for Netty based IO
+[10:47:32] [Thread-17/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
+[10:47:33] [Server thread/INFO]: [RutGonLenhPlugin] Disabling RutGonLenhPlugin v1.0
+[10:47:33] [Server thread/INFO]: [RutGonLenhPlugin] RutGonLenhPlugin đã được tắt!
+[10:47:33] [Server thread/INFO]: [RutGonLenhPlugin] Đã hủy đăng ký lệnh: haha
+[10:47:33] [Server thread/INFO]: [RutGonLenhPlugin] Đã hủy đăng ký lệnh: test
+[10:47:33] [Server thread/INFO]: [RutGonLenhPlugin] Đã hủy đăng ký lệnh: duygay
+[10:47:33] [Server thread/INFO]: [RutGonLenhPlugin] Đã hủy đăng ký lệnh: gay
+[10:47:33] [Server thread/INFO]: [playit-gg] Disabling playit-gg v0.1.4
+[10:47:33] [Server thread/INFO]: [TAB] Disabling TAB v5.2.2
+[10:47:33] [Server thread/INFO]: [TAB] Disabled in 0ms
+[10:47:33] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.1+6763-2e55f4f
+[10:47:33] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[10:47:33] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
+[10:47:33] [Thread-17/INFO]: [gg.playit.minecraft.PlayitManager] failed to connect, retrying
+[10:47:33] [Thread-17/WARN]: Exception in thread "Thread-17" java.lang.IllegalStateException: zip file closed
+[10:47:33] [Thread-17/WARN]: 	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:846)
+[10:47:33] [Thread-17/WARN]: 	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:338)
+[10:47:33] [Thread-17/WARN]: 	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:517)
+[10:47:33] [Thread-17/WARN]: 	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:472)
+[10:47:33] [Thread-17/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:195)
+[10:47:33] [Thread-17/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+[10:47:33] [Thread-17/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:155)
+[10:47:33] [Thread-17/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:150)
+[10:47:33] [Thread-17/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+[10:47:33] [Thread-17/WARN]: 	at playit-minecraft-plugin.jar//gg.playit.messages.ControlFeedReader.read(ControlFeedReader.java:46)
+[10:47:33] [Thread-17/WARN]: 	at playit-minecraft-plugin.jar//gg.playit.control.ChannelSetup$SetupRequireAuthentication.authenticate(ChannelSetup.java:141)
+[10:47:33] [Thread-17/WARN]: 	at playit-minecraft-plugin.jar//gg.playit.control.PlayitControlChannel.setup(PlayitControlChannel.java:43)
+[10:47:33] [Thread-17/WARN]: 	at playit-minecraft-plugin.jar//gg.playit.minecraft.PlayitManager.run(PlayitManager.java:168)
+[10:47:33] [Thread-17/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[10:47:47] [Server thread/INFO]: Loaded 7 recipes
+[10:47:51] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[10:47:51] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.1+6763-2e55f4f
+[10:47:52] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@11b9ac8e]
+[10:47:52] [Server thread/INFO]: [KeoFramer] Loading server plugin KeoFramer v1.0-SNAPSHOT
+[10:47:52] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.2.2
+[10:47:52] [Server thread/INFO]: [KeoMenu] Loading server plugin KeoMenu v1.0
+[10:47:52] [Server thread/INFO]: [playit-gg] Loading server plugin playit-gg v0.1.4
+[10:47:52] [Server thread/INFO]: [RutGonLenhPlugin] Loading server plugin RutGonLenhPlugin v1.0
+[10:47:52] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[10:47:52] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.1+6763-2e55f4f
+[10:47:52] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[10:47:53] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[10:47:53] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[10:47:53] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
+[10:47:56] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[10:47:56] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[10:47:56] [Server thread/INFO]: [KeoFramer] Enabling KeoFramer v1.0-SNAPSHOT
+[10:47:56] [Server thread/WARN]: [KeoFramer] Could not save areas.yml to plugins/KeoFramer/areas.yml because areas.yml already exists.
+[10:47:56] [Server thread/INFO]: [KeoFramer] Đã tải 3 khu vực.
+[10:47:56] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: keoframer [1.0-SNAPSHOT]
+[10:47:56] [Server thread/INFO]: [KeoFramer] Đã kết nối với PlaceholderAPI.
+[10:47:56] [Server thread/INFO]: [KeoFramer] KeoFramer v1.0-SNAPSHOT đã được bật!
+[10:47:56] [Server thread/INFO]: [TAB] Enabling TAB v5.2.2
+[10:47:57] [Server thread/INFO]: [TAB] Enabled in 230ms
+[10:47:57] [Server thread/INFO]: [KeoMenu] Enabling KeoMenu v1.0
+[10:47:57] [Server thread/INFO]: [KeoMenu] Đã kết nối thành công với KeoFramer API!
+[10:47:57] [Server thread/INFO]: [KeoMenu] Đang tạo file mặc định: menus/main_menu.yml
+[10:47:57] [Server thread/WARN]: [KeoMenu] Không tìm thấy tài nguyên: menus/main_menu.yml trong JAR plugin.
+[10:47:57] [Server thread/INFO]: [KeoMenu] Đang tạo file mặc định: menus/shop_menu.yml
+[10:47:57] [Server thread/WARN]: [KeoMenu] Không tìm thấy tài nguyên: menus/shop_menu.yml trong JAR plugin.
+[10:47:57] [Server thread/INFO]: [KeoMenu] Đang tải lại tất cả menu...
+[10:47:57] [Server thread/INFO]: [KeoMenu] Đã tải xong 0 menu.
+[10:47:57] [Server thread/INFO]: [playit-gg] Enabling playit-gg v0.1.4
+[10:47:58] [Thread-27/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret key found, checking
+[10:47:58] [Thread-27/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[10:47:58] [Server thread/INFO]: [RutGonLenhPlugin] Enabling RutGonLenhPlugin v1.0
+[10:47:58] [Server thread/INFO]: [RutGonLenhPlugin] RutGonLenhPlugin đã được bật!
+[10:47:58] [Server thread/INFO]: [RutGonLenhPlugin] Đã truy cập CommandMap thành công.
+[10:47:58] [Server thread/INFO]: [RutGonLenhPlugin] Đang tải các lệnh rút gọn từ commands.yml...
+[10:47:58] [Server thread/INFO]: [RutGonLenhPlugin] Đã đăng ký lệnh rút gọn: /haha -> say haha
+[10:47:58] [Server thread/INFO]: [RutGonLenhPlugin] Đã đăng ký lệnh rút gọn: /gay -> say gay
+[10:47:58] [Server thread/INFO]: [RutGonLenhPlugin] Đã đăng ký lệnh rút gọn: /duygay -> say duy sieu gay
+[10:47:58] [Server thread/INFO]: [RutGonLenhPlugin] Đã đăng ký lệnh rút gọn: /test -> say test
+[10:47:58] [Server thread/INFO]: [RutGonLenhPlugin] Đã tải xong các lệnh rút gọn.
+[10:47:58] [Server thread/INFO]: [RutGonLenhPlugin] Lệnh /rgl đã được đăng ký thành công.
+[10:47:58] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[10:47:58] [Server thread/INFO]: CONSOLE: Reload complete.
+[10:47:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 28635ms or 572 ticks behind
+[10:47:58] [Server thread/INFO]: Timings Reset
+[10:47:58] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[10:47:59] [Thread-27/INFO]: [gg.playit.minecraft.PlayitKeysSetup] found minecraft java tunnel: virginia-needle.joinmc.link
+[10:47:59] [Thread-27/INFO]: [gg.playit.minecraft.PlayitManager] keys and tunnel setup
+[10:47:59] [Thread-27/INFO]: playit.gg: WARNING:  plugin is running with a guest account
+[10:47:59] [Thread-27/INFO]: playit.gg: see server console for setup URL
+[10:48:00] [Thread-27/INFO]: [gg.playit.minecraft.PlayitManager] setup playit.gg account: https://playit.gg/login/guest-account/0001000000000000000000159e42686a54600100000000028ff8d3e6752550991ff6f2071880d357b41ab87d202fc81c256907cf7b837dc4
+[10:48:00] [Thread-27/INFO]: playit.gg: tunnel setup
+[10:48:00] [Thread-27/INFO]: playit.gg: virginia-needle.joinmc.link
+[10:48:00] [Thread-27/WARN]: [gg.playit.control.ChannelSetup] Got IO error working with :control.playit.gg/2602:fbaf:848:0:0:0:0:1, error : java.net.SocketException: Network is unreachable
+[10:48:01] [Thread-27/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
+[10:49:54] [User Authenticator #0/INFO]: UUID of player NamShad0w is c2a700c3-272f-344e-95bf-70c2986f804e
+[10:49:54] [Server thread/INFO]: NamShad0w joined the game
+[10:49:54] [TAB Processing Thread/INFO]: [TAB] [WARN] Player NamShad0w's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[10:49:54] [Server thread/INFO]: NamShad0w[/[0:0:0:0:0:0:0:1%0]:56718] logged in with entity id 184 at ([world]-148.01758152668538, 75.0, -67.00100178021947)
+[10:50:01] [Server thread/INFO]: NamShad0w issued server command: /pl
+[10:50:10] [Server thread/INFO]: NamShad0w issued server command: /keomenu reload
+[10:50:10] [Server thread/INFO]: [KeoMenu] Đang tải lại tất cả menu...
+[10:50:10] [Server thread/ERROR]: Cannot load plugins/KeoMenu/menus/test.yml
+org.bukkit.configuration.InvalidConfigurationException: while scanning a quoted scalar
+ in 'reader', line 52, column 11:
+        name: "&a&lCửa
+              ^
+found unexpected end of stream
+ in 'reader', line 53, column 1:
+    
+    ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:111) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:309) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at com.namdz.keomenu.menu.MenuManager.loadAllMenus(MenuManager.java:40) ~[KeoMenu-1.0-SNAPSHOT.jar:?]
+	at com.namdz.keomenu.commands.KeoMenuCommand.onCommand(KeoMenuCommand.java:37) ~[KeoMenu-1.0-SNAPSHOT.jar:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.dispatchCommand(CraftServer.java:987) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.craftbukkit.v1_20_R1.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:64) ~[paper-1.20.1.jar:git-Paper-196]
+	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:265) ~[paper-1.20.1.jar:?]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:324) ~[?:?]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:308) ~[?:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performChatCommand(ServerGamePacketListenerImpl.java:2354) ~[?:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$21(ServerGamePacketListenerImpl.java:2314) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153) ~[?:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[?:?]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1338) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:197) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126) ~[?:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1315) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1308) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136) ~[?:?]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1286) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1174) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: org.yaml.snakeyaml.scanner.ScannerException: while scanning a quoted scalar
+ in 'reader', line 52, column 11:
+        name: "&a&lCửa
+              ^
+found unexpected end of stream
+ in 'reader', line 53, column 1:
+    
+    ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.scanFlowScalarSpaces(ScannerImpl.java:1966) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.scanFlowScalar(ScannerImpl.java:1879) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchFlowScalar(ScannerImpl.java:1057) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchDouble(ScannerImpl.java:1039) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:427) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:238) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValue.produce(ParserImpl.java:671) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:162) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:241) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:205) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeKeyNode(Composer.java:359) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:344) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.Yaml.compose(Yaml.java:575) ~[snakeyaml-2.0.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:104) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	... 29 more
+[10:50:10] [Server thread/INFO]: [KeoMenu] Đã tải menu: test
+[10:50:10] [Server thread/INFO]: [KeoMenu] Đã tải xong 1 menu.
+[10:50:22] [Server thread/INFO]: NamShad0w issued server command: /menudemocuaqueo
+[10:50:50] [Server thread/INFO]: NamShad0w issued server command: /keomenu open test
+[10:51:33] [Server thread/INFO]: NamShad0w issued server command: /keomenu reload
+[10:51:33] [Server thread/INFO]: [KeoMenu] Đang tải lại tất cả menu...
+[10:51:33] [Server thread/ERROR]: Cannot load plugins/KeoMenu/menus/test.yml
+org.bukkit.configuration.InvalidConfigurationException: while scanning a quoted scalar
+ in 'reader', line 52, column 11:
+        name: "&a&lCửa
+              ^
+found unexpected end of stream
+ in 'reader', line 53, column 1:
+    
+    ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:111) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:309) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at com.namdz.keomenu.menu.MenuManager.loadAllMenus(MenuManager.java:40) ~[KeoMenu-1.0-SNAPSHOT.jar:?]
+	at com.namdz.keomenu.commands.KeoMenuCommand.onCommand(KeoMenuCommand.java:37) ~[KeoMenu-1.0-SNAPSHOT.jar:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.dispatchCommand(CraftServer.java:987) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.craftbukkit.v1_20_R1.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:64) ~[paper-1.20.1.jar:git-Paper-196]
+	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:265) ~[paper-1.20.1.jar:?]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:324) ~[?:?]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:308) ~[?:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performChatCommand(ServerGamePacketListenerImpl.java:2354) ~[?:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$21(ServerGamePacketListenerImpl.java:2314) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153) ~[?:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[?:?]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1338) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:197) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126) ~[?:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1315) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1308) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136) ~[?:?]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1286) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1174) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: org.yaml.snakeyaml.scanner.ScannerException: while scanning a quoted scalar
+ in 'reader', line 52, column 11:
+        name: "&a&lCửa
+              ^
+found unexpected end of stream
+ in 'reader', line 53, column 1:
+    
+    ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.scanFlowScalarSpaces(ScannerImpl.java:1966) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.scanFlowScalar(ScannerImpl.java:1879) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchFlowScalar(ScannerImpl.java:1057) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchDouble(ScannerImpl.java:1039) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:427) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:238) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValue.produce(ParserImpl.java:671) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:162) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:241) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:205) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeKeyNode(Composer.java:359) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:344) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.Yaml.compose(Yaml.java:575) ~[snakeyaml-2.0.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:104) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	... 29 more
+[10:51:33] [Server thread/INFO]: [KeoMenu] Đã tải menu: test
+[10:51:33] [Server thread/INFO]: [KeoMenu] Đã tải xong 1 menu.
+[10:51:48] [Server thread/INFO]: NamShad0w issued server command: /keomenu reload
+[10:51:48] [Server thread/INFO]: [KeoMenu] Đang tải lại tất cả menu...
+[10:51:48] [Server thread/ERROR]: Cannot load plugins/KeoMenu/menus/test.yml
+org.bukkit.configuration.InvalidConfigurationException: while scanning a quoted scalar
+ in 'reader', line 52, column 11:
+        name: "&a&lCửa
+              ^
+found unexpected end of stream
+ in 'reader', line 53, column 1:
+    
+    ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:111) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:309) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at com.namdz.keomenu.menu.MenuManager.loadAllMenus(MenuManager.java:40) ~[KeoMenu-1.0-SNAPSHOT.jar:?]
+	at com.namdz.keomenu.commands.KeoMenuCommand.onCommand(KeoMenuCommand.java:37) ~[KeoMenu-1.0-SNAPSHOT.jar:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.dispatchCommand(CraftServer.java:987) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.craftbukkit.v1_20_R1.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:64) ~[paper-1.20.1.jar:git-Paper-196]
+	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:265) ~[paper-1.20.1.jar:?]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:324) ~[?:?]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:308) ~[?:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performChatCommand(ServerGamePacketListenerImpl.java:2354) ~[?:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$21(ServerGamePacketListenerImpl.java:2314) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153) ~[?:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[?:?]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1338) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:197) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126) ~[?:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1315) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1308) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136) ~[?:?]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1286) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1174) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: org.yaml.snakeyaml.scanner.ScannerException: while scanning a quoted scalar
+ in 'reader', line 52, column 11:
+        name: "&a&lCửa
+              ^
+found unexpected end of stream
+ in 'reader', line 53, column 1:
+    
+    ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.scanFlowScalarSpaces(ScannerImpl.java:1966) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.scanFlowScalar(ScannerImpl.java:1879) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchFlowScalar(ScannerImpl.java:1057) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchDouble(ScannerImpl.java:1039) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:427) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:238) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValue.produce(ParserImpl.java:671) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:162) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:241) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:205) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeKeyNode(Composer.java:359) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:344) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157) ~[snakeyaml-2.0.jar:?]
+	at org.yaml.snakeyaml.Yaml.compose(Yaml.java:575) ~[snakeyaml-2.0.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:104) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	... 29 more
+[10:51:48] [Server thread/INFO]: [KeoMenu] Đã tải menu: test
+[10:51:48] [Server thread/INFO]: [KeoMenu] Đã tải xong 1 menu.
+[10:51:50] [Server thread/INFO]: NamShad0w issued server command: /keomenu open test
+[10:52:02] [Thread-27/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[10:52:36] [Server thread/INFO]: NamShad0w issued server command: /keomenu open test
+[10:52:38] [Server thread/INFO]: NamShad0w issued server command: /keomenu reload
+[10:52:38] [Server thread/INFO]: [KeoMenu] Đang tải lại tất cả menu...
+[10:52:38] [Server thread/INFO]: [KeoMenu] Đã tải menu: test
+[10:52:38] [Server thread/INFO]: [KeoMenu] Đã tải xong 1 menu.
+[10:52:46] [Server thread/INFO]: NamShad0w issued server command: /doikeo
+[10:52:54] [Server thread/INFO]: NamShad0w issued server command: /keomenu:keomenu open test
+[10:56:02] [Thread-27/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[11:00:02] [Thread-27/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[11:00:05] [Thread-27/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=198.22.205.194:32858, peerAddr=185.165.44.22:40286, claimAddress=209.25.142.2:43783, claimToken=[44, 0, 60, -58, 22, -51, -62, -128, 90, -71, -91, 44, 22, -99, 94, 37, -39, 33, -73, -85, 7, 104, 106, 87, 53, 0, 0, 0, 0, 0, 21, -98, 66, 0, 0, 0, 0, 0, 71, -31, 13, -57, -73, -85, 7, 0, 0, 0, 0, 46, 0, 0, 0, 0, 0, 0, 0, 1, 0, 4, 93, -44, -86, 21, 64, -113, 92, -73, 47, -95, 71, 77, 8, -6, 14, -39], tunnelServerId=1, dataCenterId=46}
+[11:00:05] [Thread-27/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[11:00:05] [Thread-27/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.142.2:43783 to claim client
+[11:00:05] [nioEventLoopGroup-3-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[11:00:05] [nioEventLoopGroup-3-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[11:00:05] [nioEventLoopGroup-3-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[11:00:05] [nioEventLoopGroup-3-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnection, LegacyPingHandler=class net.minecraft.server.network.LegacyPingHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.PacketSplitter, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.EnumProtocolDirection, PacketPrepender=class net.minecraft.network.PacketPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.NetworkManagerServer, NetworkManager=class net.minecraft.network.NetworkManager, HandshakeListener=class net.minecraft.server.network.HandshakeListener, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=null}
+[11:00:05] [nioEventLoopGroup-3-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] failed to get Minecraft server from Bukkit.getServer()
+[11:00:05] [nioEventLoopGroup-3-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:19132
+[11:00:05] [nioEventLoopGroup-3-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[11:03:45] [Thread-27/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.194:32858, peerAddr=216.128.138.102:60692, claimAddress=209.25.142.2:43786, claimToken=[44, 0, 60, -109, -71, -35, -62, -128, 90, -40, -128, -118, 102, -19, 20, -60, -82, 62, -72, -85, 10, 104, 106, 88, 16, 0, 0, 0, 0, 0, 21, -98, 66, 0, 0, 0, 0, 0, 71, -31, 13, -48, -72, -85, 10, 0, 0, 0, 0, 44, 0, 0, 0, 0, 0, 0, 0, 1, 0, 2, 108, 96, 57, 89, -65, -59, 84, 115, -116, 87, -61, 88, 0, -52, -93, 88], tunnelServerId=1, dataCenterId=44}
+[11:03:45] [Thread-27/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[11:03:45] [Thread-27/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.142.2:43786 to claim client
+[11:03:45] [Thread-27/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=[2602:fbaf:080c:0001:0000:0000:0000:00c2]:32858, peerAddr=[2001:19f0:6402:08f2:5400:05ff:fe0c:67c3]:59030, claimAddress=209.25.142.2:43786, claimToken=[64, 0, 88, 38, 2, -5, -81, 8, 12, 0, 1, 0, 0, 0, 0, 0, 0, 0, -62, -128, 90, 32, 1, 25, -16, 100, 2, 8, -14, 84, 0, 5, -1, -2, 12, 103, -61, -26, -106, 0, 0, 0, 0, -54, 88, 10, -111, -85, 10, 104, 106, 88, 16, 0, 0, 0, 0, 0, 21, -98, 66, 0, 0, 0, 0, 0, 71, -31, 13, -96, -111, -85, 10, 0, 0, 0, 0, 44, 0, 0, 0, 0, 0, 0, 0, 1, 0, 2, 53, -25, 67, -128, -117, -123, -87, -63, 20, -59, 37, 9, -115, 77, 82, -40], tunnelServerId=1, dataCenterId=44}
+[11:03:45] [Thread-27/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[11:03:45] [Thread-27/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.142.2:43786 to claim client
+[11:03:45] [nioEventLoopGroup-3-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[11:03:45] [nioEventLoopGroup-3-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[11:03:45] [nioEventLoopGroup-3-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[11:03:45] [nioEventLoopGroup-3-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[11:03:45] [nioEventLoopGroup-3-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[11:03:45] [nioEventLoopGroup-3-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnection, LegacyPingHandler=class net.minecraft.server.network.LegacyPingHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.PacketSplitter, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.EnumProtocolDirection, PacketPrepender=class net.minecraft.network.PacketPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.NetworkManagerServer, NetworkManager=class net.minecraft.network.NetworkManager, HandshakeListener=class net.minecraft.server.network.HandshakeListener, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=null}
+[11:03:45] [nioEventLoopGroup-3-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] failed to get Minecraft server from Bukkit.getServer()
+[11:03:45] [nioEventLoopGroup-3-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:19132
+[11:03:45] [nioEventLoopGroup-3-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[11:03:45] [nioEventLoopGroup-3-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[11:03:45] [nioEventLoopGroup-3-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnection, LegacyPingHandler=class net.minecraft.server.network.LegacyPingHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.PacketSplitter, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.EnumProtocolDirection, PacketPrepender=class net.minecraft.network.PacketPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.NetworkManagerServer, NetworkManager=class net.minecraft.network.NetworkManager, HandshakeListener=class net.minecraft.server.network.HandshakeListener, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=null}
+[11:03:45] [nioEventLoopGroup-3-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] failed to get Minecraft server from Bukkit.getServer()
+[11:03:45] [nioEventLoopGroup-3-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:19132
+[11:03:45] [nioEventLoopGroup-3-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[11:03:45] [nioEventLoopGroup-3-2/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to minecraft server
+[11:03:45] [Thread-27/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.194:32858, peerAddr=216.128.138.102:60704, claimAddress=209.25.142.2:43786, claimToken=[44, 0, 60, -109, -71, -35, -62, -128, 90, -40, -128, -118, 102, -19, 32, -52, -47, -65, 110, -85, 10, 104, 106, 88, 17, 0, 0, 0, 0, 0, 21, -98, 66, 0, 0, 0, 0, 0, 71, -31, 13, 75, 110, -85, 10, 0, 0, 0, 0, 44, 0, 0, 0, 0, 0, 0, 0, 1, 0, 4, 117, 6, 126, 118, 10, -33, 82, -122, 115, 110, -10, -87, -29, 50, -76, 10], tunnelServerId=1, dataCenterId=44}
+[11:03:45] [Thread-27/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[11:03:45] [Thread-27/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.142.2:43786 to claim client
+[11:03:45] [nioEventLoopGroup-3-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[11:03:45] [nioEventLoopGroup-3-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[11:03:45] [nioEventLoopGroup-3-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[11:03:45] [nioEventLoopGroup-3-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnection, LegacyPingHandler=class net.minecraft.server.network.LegacyPingHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.PacketSplitter, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.EnumProtocolDirection, PacketPrepender=class net.minecraft.network.PacketPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.NetworkManagerServer, NetworkManager=class net.minecraft.network.NetworkManager, HandshakeListener=class net.minecraft.server.network.HandshakeListener, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=null}
+[11:03:45] [nioEventLoopGroup-3-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] failed to get Minecraft server from Bukkit.getServer()
+[11:03:45] [nioEventLoopGroup-3-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:19132
+[11:03:45] [nioEventLoopGroup-3-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[11:03:45] [Thread-27/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.194:32858, peerAddr=216.128.138.102:60708, claimAddress=209.25.142.2:43786, claimToken=[44, 0, 60, -109, -71, -35, -62, -128, 90, -40, -128, -118, 102, -19, 36, 41, -89, 114, 0, -85, 10, 104, 106, 88, 17, 0, 0, 0, 0, 0, 21, -98, 66, 0, 0, 0, 0, 0, 71, -31, 13, -113, 0, -85, 10, 0, 0, 0, 0, 44, 0, 0, 0, 0, 0, 0, 0, 1, 0, 2, -41, -25, 13, 14, -92, -9, 89, 68, -41, -87, 89, 50, 92, -33, 64, 3], tunnelServerId=1, dataCenterId=44}
+[11:03:45] [Thread-27/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[11:03:45] [Thread-27/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.142.2:43786 to claim client
+[11:03:45] [nioEventLoopGroup-3-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[11:03:45] [nioEventLoopGroup-3-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[11:03:45] [nioEventLoopGroup-3-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[11:03:45] [nioEventLoopGroup-3-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnection, LegacyPingHandler=class net.minecraft.server.network.LegacyPingHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.PacketSplitter, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.EnumProtocolDirection, PacketPrepender=class net.minecraft.network.PacketPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.NetworkManagerServer, NetworkManager=class net.minecraft.network.NetworkManager, HandshakeListener=class net.minecraft.server.network.HandshakeListener, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=null}
+[11:03:45] [nioEventLoopGroup-3-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] failed to get Minecraft server from Bukkit.getServer()
+[11:03:45] [nioEventLoopGroup-3-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:19132
+[11:03:45] [nioEventLoopGroup-3-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[11:03:45] [nioEventLoopGroup-3-4/WARN]: [io.netty.channel.DefaultChannelPipeline] An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259) ~[netty-buffer-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.87.Final.jar:4.1.87.Final]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[11:03:46] [Thread-27/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.194:32858, peerAddr=216.128.138.102:60724, claimAddress=209.25.142.2:43786, claimToken=[44, 0, 60, -109, -71, -35, -62, -128, 90, -40, -128, -118, 102, -19, 52, -8, -32, 73, -108, -85, 10, 104, 106, 88, 17, 0, 0, 0, 0, 0, 21, -98, 66, 0, 0, 0, 0, 0, 71, -31, 13, -81, -108, -85, 10, 0, 0, 0, 0, 44, 0, 0, 0, 0, 0, 0, 0, 1, 0, 2, -103, -57, -101, 7, 59, 98, -87, -85, -107, 29, -87, 108, -87, -122, -55, -124], tunnelServerId=1, dataCenterId=44}
+[11:03:46] [Thread-27/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[11:03:46] [Thread-27/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.142.2:43786 to claim client
+[11:03:46] [nioEventLoopGroup-3-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[11:03:46] [nioEventLoopGroup-3-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[11:03:46] [nioEventLoopGroup-3-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[11:03:46] [nioEventLoopGroup-3-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnection, LegacyPingHandler=class net.minecraft.server.network.LegacyPingHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.PacketSplitter, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.EnumProtocolDirection, PacketPrepender=class net.minecraft.network.PacketPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.NetworkManagerServer, NetworkManager=class net.minecraft.network.NetworkManager, HandshakeListener=class net.minecraft.server.network.HandshakeListener, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=null}
+[11:03:46] [nioEventLoopGroup-3-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] failed to get Minecraft server from Bukkit.getServer()
+[11:03:46] [nioEventLoopGroup-3-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:19132
+[11:03:46] [nioEventLoopGroup-3-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[11:03:46] [Thread-27/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.194:32858, peerAddr=216.128.138.102:60736, claimAddress=209.25.142.2:43786, claimToken=[44, 0, 60, -109, -71, -35, -62, -128, 90, -40, -128, -118, 102, -19, 64, 87, -86, -6, 77, -85, 10, 104, 106, 88, 18, 0, 0, 0, 0, 0, 21, -98, 66, 0, 0, 0, 0, 0, 71, -31, 13, -70, 77, -85, 10, 0, 0, 0, 0, 44, 0, 0, 0, 0, 0, 0, 0, 1, 0, 3, -123, 43, -120, -29, -57, 111, 109, -17, 44, 87, 66, -88, 82, -97, -7, -55], tunnelServerId=1, dataCenterId=44}
+[11:03:46] [Thread-27/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[11:03:46] [Thread-27/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.142.2:43786 to claim client
+[11:03:46] [nioEventLoopGroup-3-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[11:03:46] [nioEventLoopGroup-3-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[11:03:46] [nioEventLoopGroup-3-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[11:03:46] [nioEventLoopGroup-3-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnection, LegacyPingHandler=class net.minecraft.server.network.LegacyPingHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.PacketSplitter, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.EnumProtocolDirection, PacketPrepender=class net.minecraft.network.PacketPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.NetworkManagerServer, NetworkManager=class net.minecraft.network.NetworkManager, HandshakeListener=class net.minecraft.server.network.HandshakeListener, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=null}
+[11:03:46] [nioEventLoopGroup-3-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] failed to get Minecraft server from Bukkit.getServer()
+[11:03:46] [nioEventLoopGroup-3-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:19132
+[11:03:46] [nioEventLoopGroup-3-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[11:03:46] [Thread-27/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.194:32858, peerAddr=216.128.138.102:60748, claimAddress=209.25.142.2:43786, claimToken=[44, 0, 60, -109, -71, -35, -62, -128, 90, -40, -128, -118, 102, -19, 76, 6, -26, 78, -14, -85, 10, 104, 106, 88, 18, 0, 0, 0, 0, 0, 21, -98, 66, 0, 0, 0, 0, 0, 71, -31, 13, -70, -14, -85, 10, 0, 0, 0, 0, 44, 0, 0, 0, 0, 0, 0, 0, 1, 0, 3, -8, 40, -4, -69, 19, 47, 85, -20, -47, 36, -28, 36, -68, -24, 35, -26], tunnelServerId=1, dataCenterId=44}
+[11:03:46] [Thread-27/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[11:03:46] [Thread-27/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.142.2:43786 to claim client
+[11:03:46] [nioEventLoopGroup-3-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[11:03:46] [nioEventLoopGroup-3-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[11:03:46] [nioEventLoopGroup-3-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[11:03:46] [nioEventLoopGroup-3-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnection, LegacyPingHandler=class net.minecraft.server.network.LegacyPingHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.PacketSplitter, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.EnumProtocolDirection, PacketPrepender=class net.minecraft.network.PacketPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.NetworkManagerServer, NetworkManager=class net.minecraft.network.NetworkManager, HandshakeListener=class net.minecraft.server.network.HandshakeListener, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=null}
+[11:03:46] [nioEventLoopGroup-3-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] failed to get Minecraft server from Bukkit.getServer()
+[11:03:46] [nioEventLoopGroup-3-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:19132
+[11:03:46] [nioEventLoopGroup-3-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[11:03:46] [nioEventLoopGroup-3-4/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to minecraft server
+[11:03:47] [Thread-27/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.194:32858, peerAddr=216.128.138.102:60758, claimAddress=209.25.142.2:43786, claimToken=[44, 0, 60, -109, -71, -35, -62, -128, 90, -40, -128, -118, 102, -19, 86, 78, 105, -7, 35, -85, 10, 104, 106, 88, 19, 0, 0, 0, 0, 0, 21, -98, 66, 0, 0, 0, 0, 0, 71, -31, 13, 14, 35, -85, 10, 0, 0, 0, 0, 44, 0, 0, 0, 0, 0, 0, 0, 1, 0, 4, -22, 65, -12, 103, -59, -87, 35, -121, -74, -63, -106, -53, 72, 3, 59, -113], tunnelServerId=1, dataCenterId=44}
+[11:03:47] [Thread-27/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[11:03:47] [Thread-27/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.142.2:43786 to claim client
+[11:03:47] [nioEventLoopGroup-3-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[11:03:47] [nioEventLoopGroup-3-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[11:03:47] [nioEventLoopGroup-3-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[11:03:47] [nioEventLoopGroup-3-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnection, LegacyPingHandler=class net.minecraft.server.network.LegacyPingHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.PacketSplitter, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.EnumProtocolDirection, PacketPrepender=class net.minecraft.network.PacketPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.NetworkManagerServer, NetworkManager=class net.minecraft.network.NetworkManager, HandshakeListener=class net.minecraft.server.network.HandshakeListener, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=null}
+[11:03:47] [nioEventLoopGroup-3-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] failed to get Minecraft server from Bukkit.getServer()
+[11:03:47] [nioEventLoopGroup-3-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:19132
+[11:03:47] [nioEventLoopGroup-3-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[11:03:47] [nioEventLoopGroup-3-2/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to minecraft server
+[11:03:47] [Thread-27/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.194:32858, peerAddr=216.128.138.102:60786, claimAddress=209.25.142.2:43786, claimToken=[44, 0, 60, -109, -71, -35, -62, -128, 90, -40, -128, -118, 102, -19, 114, -50, -19, 124, -97, -85, 10, 104, 106, 88, 19, 0, 0, 0, 0, 0, 21, -98, 66, 0, 0, 0, 0, 0, 71, -31, 13, -69, -97, -85, 10, 0, 0, 0, 0, 44, 0, 0, 0, 0, 0, 0, 0, 1, 0, 4, -65, -20, 77, 24, -61, -13, 73, -15, 44, 85, 112, -89, -112, -23, 4, 122], tunnelServerId=1, dataCenterId=44}
+[11:03:47] [Thread-27/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[11:03:47] [Thread-27/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.142.2:43786 to claim client
+[11:03:47] [nioEventLoopGroup-3-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[11:03:47] [nioEventLoopGroup-3-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[11:03:47] [nioEventLoopGroup-3-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[11:03:47] [nioEventLoopGroup-3-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnection, LegacyPingHandler=class net.minecraft.server.network.LegacyPingHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.PacketSplitter, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.EnumProtocolDirection, PacketPrepender=class net.minecraft.network.PacketPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.NetworkManagerServer, NetworkManager=class net.minecraft.network.NetworkManager, HandshakeListener=class net.minecraft.server.network.HandshakeListener, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=null}
+[11:03:47] [nioEventLoopGroup-3-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] failed to get Minecraft server from Bukkit.getServer()
+[11:03:47] [nioEventLoopGroup-3-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:19132
+[11:03:47] [nioEventLoopGroup-3-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[11:03:47] [Thread-27/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=[2602:fbaf:080c:0001:0000:0000:0000:00c2]:32858, peerAddr=[2001:19f0:6402:08f2:5400:05ff:fe0c:67c3]:59040, claimAddress=209.25.142.2:43786, claimToken=[64, 0, 88, 38, 2, -5, -81, 8, 12, 0, 1, 0, 0, 0, 0, 0, 0, 0, -62, -128, 90, 32, 1, 25, -16, 100, 2, 8, -14, 84, 0, 5, -1, -2, 12, 103, -61, -26, -96, 0, 0, 0, 0, 121, -93, 32, -115, -85, 10, 104, 106, 88, 19, 0, 0, 0, 0, 0, 21, -98, 66, 0, 0, 0, 0, 0, 71, -31, 13, 24, -115, -85, 10, 0, 0, 0, 0, 44, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, -98, 29, 62, 20, -40, 39, 64, 7, -118, 65, 96, -96, 32, -19, 104, 3], tunnelServerId=1, dataCenterId=44}
+[11:03:47] [Thread-27/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[11:03:47] [Thread-27/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.142.2:43786 to claim client
+[11:03:47] [nioEventLoopGroup-3-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[11:03:47] [nioEventLoopGroup-3-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[11:03:47] [nioEventLoopGroup-3-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[11:03:47] [nioEventLoopGroup-3-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnection, LegacyPingHandler=class net.minecraft.server.network.LegacyPingHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.PacketSplitter, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.EnumProtocolDirection, PacketPrepender=class net.minecraft.network.PacketPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.NetworkManagerServer, NetworkManager=class net.minecraft.network.NetworkManager, HandshakeListener=class net.minecraft.server.network.HandshakeListener, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=null}
+[11:03:47] [nioEventLoopGroup-3-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] failed to get Minecraft server from Bukkit.getServer()
+[11:03:47] [nioEventLoopGroup-3-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:19132
+[11:03:47] [nioEventLoopGroup-3-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[11:03:47] [Thread-27/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.194:32858, peerAddr=216.128.138.102:60800, claimAddress=209.25.142.2:43786, claimToken=[44, 0, 60, -109, -71, -35, -62, -128, 90, -40, -128, -118, 102, -19, -128, 60, 74, -124, -43, -85, 10, 104, 106, 88, 19, 0, 0, 0, 0, 0, 21, -98, 66, 0, 0, 0, 0, 0, 71, -31, 13, -19, -43, -85, 10, 0, 0, 0, 0, 44, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, -69, 79, 37, -124, -8, 84, -6, -27, 42, 17, 75, 54, -27, 114, -72, -19], tunnelServerId=1, dataCenterId=44}
+[11:03:47] [Thread-27/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[11:03:47] [Thread-27/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.142.2:43786 to claim client
+[11:03:47] [nioEventLoopGroup-3-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[11:03:47] [nioEventLoopGroup-3-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[11:03:47] [nioEventLoopGroup-3-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[11:03:47] [nioEventLoopGroup-3-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnection, LegacyPingHandler=class net.minecraft.server.network.LegacyPingHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.PacketSplitter, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.EnumProtocolDirection, PacketPrepender=class net.minecraft.network.PacketPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.NetworkManagerServer, NetworkManager=class net.minecraft.network.NetworkManager, HandshakeListener=class net.minecraft.server.network.HandshakeListener, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=null}
+[11:03:47] [nioEventLoopGroup-3-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] failed to get Minecraft server from Bukkit.getServer()
+[11:03:47] [nioEventLoopGroup-3-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:19132
+[11:03:47] [nioEventLoopGroup-3-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[11:03:47] [nioEventLoopGroup-3-4/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to minecraft server
+[11:03:47] [nioEventLoopGroup-3-2/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to minecraft server
+[11:03:48] [nioEventLoopGroup-3-4/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to minecraft server
+[11:03:51] [Thread-27/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.194:32858, peerAddr=216.128.138.102:47274, claimAddress=209.25.142.2:43786, claimToken=[44, 0, 60, -109, -71, -35, -62, -128, 90, -40, -128, -118, 102, -72, -86, -107, 8, 11, 70, -85, 10, 104, 106, 88, 23, 0, 0, 0, 0, 0, 21, -98, 66, 0, 0, 0, 0, 0, 71, -31, 13, 96, 70, -85, 10, 0, 0, 0, 0, 44, 0, 0, 0, 0, 0, 0, 0, 1, 0, 2, -106, -102, -13, 107, 113, 56, 36, 77, -114, -73, -7, 100, -100, -27, 83, -83], tunnelServerId=1, dataCenterId=44}
+[11:03:51] [Thread-27/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[11:03:51] [Thread-27/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.142.2:43786 to claim client
+[11:03:51] [nioEventLoopGroup-3-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[11:03:51] [nioEventLoopGroup-3-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[11:03:51] [nioEventLoopGroup-3-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[11:03:51] [nioEventLoopGroup-3-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnection, LegacyPingHandler=class net.minecraft.server.network.LegacyPingHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.PacketSplitter, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.EnumProtocolDirection, PacketPrepender=class net.minecraft.network.PacketPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.NetworkManagerServer, NetworkManager=class net.minecraft.network.NetworkManager, HandshakeListener=class net.minecraft.server.network.HandshakeListener, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=null}
+[11:03:51] [nioEventLoopGroup-3-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] failed to get Minecraft server from Bukkit.getServer()
+[11:03:51] [nioEventLoopGroup-3-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:19132
+[11:03:51] [nioEventLoopGroup-3-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[11:03:52] [Thread-27/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.194:32858, peerAddr=216.128.138.102:47288, claimAddress=209.25.142.2:43786, claimToken=[44, 0, 60, -109, -71, -35, -62, -128, 90, -40, -128, -118, 102, -72, -72, -19, 103, 42, 2, -85, 10, 104, 106, 88, 24, 0, 0, 0, 0, 0, 21, -98, 66, 0, 0, 0, 0, 0, 71, -31, 13, 25, 2, -85, 10, 0, 0, 0, 0, 44, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, -110, 12, -124, 2, 22, 41, 83, 50, 95, 28, -116, -125, 44, 22, -34, -18], tunnelServerId=1, dataCenterId=44}
+[11:03:52] [Thread-27/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[11:03:52] [Thread-27/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.142.2:43786 to claim client
+[11:03:52] [nioEventLoopGroup-3-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[11:03:52] [nioEventLoopGroup-3-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[11:03:52] [nioEventLoopGroup-3-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[11:03:52] [nioEventLoopGroup-3-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnection, LegacyPingHandler=class net.minecraft.server.network.LegacyPingHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.PacketSplitter, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.EnumProtocolDirection, PacketPrepender=class net.minecraft.network.PacketPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.NetworkManagerServer, NetworkManager=class net.minecraft.network.NetworkManager, HandshakeListener=class net.minecraft.server.network.HandshakeListener, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=null}
+[11:03:52] [nioEventLoopGroup-3-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] failed to get Minecraft server from Bukkit.getServer()
+[11:03:52] [nioEventLoopGroup-3-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:19132
+[11:03:52] [nioEventLoopGroup-3-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[11:03:53] [nioEventLoopGroup-3-4/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to minecraft server
+[11:03:53] [Thread-27/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=[2602:fbaf:080c:0001:0000:0000:0000:00c2]:32858, peerAddr=[2001:19f0:6402:08f2:5400:05ff:fe0c:67c3]:39806, claimAddress=209.25.142.2:43786, claimToken=[64, 0, 88, 38, 2, -5, -81, 8, 12, 0, 1, 0, 0, 0, 0, 0, 0, 0, -62, -128, 90, 32, 1, 25, -16, 100, 2, 8, -14, 84, 0, 5, -1, -2, 12, 103, -61, -101, 126, 0, 0, 0, 0, -102, 3, 77, -94, -85, 10, 104, 106, 88, 25, 0, 0, 0, 0, 0, 21, -98, 66, 0, 0, 0, 0, 0, 71, -31, 13, -79, -94, -85, 10, 0, 0, 0, 0, 44, 0, 0, 0, 0, 0, 0, 0, 1, 0, 2, 105, 60, 92, -119, -114, 110, -24, -79, 65, 3, 64, 0, 110, 74, -60, 101], tunnelServerId=1, dataCenterId=44}
+[11:03:53] [Thread-27/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[11:03:53] [Thread-27/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.142.2:43786 to claim client
+[11:03:53] [nioEventLoopGroup-3-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[11:03:53] [nioEventLoopGroup-3-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[11:03:53] [nioEventLoopGroup-3-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[11:03:53] [nioEventLoopGroup-3-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnection, LegacyPingHandler=class net.minecraft.server.network.LegacyPingHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.PacketSplitter, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.EnumProtocolDirection, PacketPrepender=class net.minecraft.network.PacketPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.NetworkManagerServer, NetworkManager=class net.minecraft.network.NetworkManager, HandshakeListener=class net.minecraft.server.network.HandshakeListener, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=null}
+[11:03:53] [nioEventLoopGroup-3-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] failed to get Minecraft server from Bukkit.getServer()
+[11:03:53] [nioEventLoopGroup-3-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:19132
+[11:03:53] [nioEventLoopGroup-3-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[11:03:53] [Thread-27/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=[2602:fbaf:080c:0001:0000:0000:0000:00c2]:32858, peerAddr=[2001:19f0:6402:08f2:5400:05ff:fe0c:67c3]:39820, claimAddress=209.25.142.2:43786, claimToken=[64, 0, 88, 38, 2, -5, -81, 8, 12, 0, 1, 0, 0, 0, 0, 0, 0, 0, -62, -128, 90, 32, 1, 25, -16, 100, 2, 8, -14, 84, 0, 5, -1, -2, 12, 103, -61, -101, -116, 0, 0, 0, 0, 28, -116, 70, -7, -85, 10, 104, 106, 88, 25, 0, 0, 0, 0, 0, 21, -98, 66, 0, 0, 0, 0, 0, 71, -31, 13, -10, -7, -85, 10, 0, 0, 0, 0, 44, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 113, 36, -38, -99, -117, 27, 93, -53, -96, -43, -62, -91, -103, 68, -35, 117], tunnelServerId=1, dataCenterId=44}
+[11:03:53] [Thread-27/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[11:03:53] [Thread-27/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.142.2:43786 to claim client
+[11:03:53] [nioEventLoopGroup-3-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[11:03:53] [nioEventLoopGroup-3-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[11:03:53] [nioEventLoopGroup-3-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[11:03:53] [nioEventLoopGroup-3-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnection, LegacyPingHandler=class net.minecraft.server.network.LegacyPingHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.PacketSplitter, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.EnumProtocolDirection, PacketPrepender=class net.minecraft.network.PacketPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.NetworkManagerServer, NetworkManager=class net.minecraft.network.NetworkManager, HandshakeListener=class net.minecraft.server.network.HandshakeListener, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=null}
+[11:03:53] [nioEventLoopGroup-3-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] failed to get Minecraft server from Bukkit.getServer()
+[11:03:53] [nioEventLoopGroup-3-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:19132
+[11:03:53] [nioEventLoopGroup-3-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[11:04:05] [Thread-27/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[11:05:37] [Thread-27/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=198.22.205.194:32858, peerAddr=185.165.44.22:52976, claimAddress=209.25.142.2:43783, claimToken=[44, 0, 60, -58, 22, -51, -62, -128, 90, -71, -91, 44, 22, -50, -16, -46, -110, 113, -40, -85, 7, 104, 106, 88, -127, 0, 0, 0, 0, 0, 21, -98, 66, 0, 0, 0, 0, 0, 71, -31, 13, 99, -40, -85, 7, 0, 0, 0, 0, 46, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 111, 82, -29, -74, -64, -53, -75, -84, -41, -1, 88, -23, 97, 63, 114, 17], tunnelServerId=1, dataCenterId=46}
+[11:05:37] [Thread-27/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[11:05:37] [Thread-27/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.142.2:43783 to claim client
+[11:05:37] [nioEventLoopGroup-3-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[11:05:37] [nioEventLoopGroup-3-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[11:05:37] [nioEventLoopGroup-3-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[11:05:37] [nioEventLoopGroup-3-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnection, LegacyPingHandler=class net.minecraft.server.network.LegacyPingHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.PacketSplitter, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.EnumProtocolDirection, PacketPrepender=class net.minecraft.network.PacketPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.NetworkManagerServer, NetworkManager=class net.minecraft.network.NetworkManager, HandshakeListener=class net.minecraft.server.network.HandshakeListener, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=null}
+[11:05:37] [nioEventLoopGroup-3-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] failed to get Minecraft server from Bukkit.getServer()
+[11:05:37] [nioEventLoopGroup-3-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:19132
+[11:05:37] [nioEventLoopGroup-3-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[11:07:40] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[11:07:40] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[11:07:40] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[11:07:40] [Server thread/INFO]: Using 4 threads for Netty based IO
+[11:07:40] [Server thread/INFO]: [RutGonLenhPlugin] Disabling RutGonLenhPlugin v1.0
+[11:07:40] [Server thread/INFO]: [RutGonLenhPlugin] RutGonLenhPlugin đã được tắt!
+[11:07:40] [Server thread/INFO]: [RutGonLenhPlugin] Đã hủy đăng ký lệnh: haha
+[11:07:40] [Server thread/INFO]: [RutGonLenhPlugin] Đã hủy đăng ký lệnh: test
+[11:07:40] [Server thread/INFO]: [RutGonLenhPlugin] Đã hủy đăng ký lệnh: duygay
+[11:07:40] [Server thread/INFO]: [RutGonLenhPlugin] Đã hủy đăng ký lệnh: gay
+[11:07:40] [Server thread/INFO]: [playit-gg] Disabling playit-gg v0.1.4
+[11:07:40] [Server thread/INFO]: [KeoMenu] Disabling KeoMenu v1.0
+[11:07:40] [Server thread/INFO]: [KeoMenu] Plugin KeoMenu đã được vô hiệu hóa.
+[11:07:40] [Server thread/INFO]: [TAB] Disabling TAB v5.2.2
+[11:07:40] [Server thread/INFO]: [TAB] Disabled in 5ms
+[11:07:40] [Server thread/INFO]: [KeoFramer] Disabling KeoFramer v1.0-SNAPSHOT
+[11:07:40] [Server thread/INFO]: [KeoFramer] KeoFramer đã được tắt!
+[11:07:40] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.1+6763-2e55f4f
+[11:07:40] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[11:07:40] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
+[11:07:41] [Server thread/INFO]: Loaded 7 recipes
+[11:07:43] [Thread-27/INFO]: [gg.playit.minecraft.PlayitManager] control channel shutdown
+[11:07:44] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[11:07:44] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.1+6763-2e55f4f
+[11:07:45] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@3d42d049]
+[11:07:45] [Server thread/INFO]: [KeoFramer] Loading server plugin KeoFramer v1.0-SNAPSHOT
+[11:07:45] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.2.2
+[11:07:45] [Server thread/INFO]: [KeoMenu] Loading server plugin KeoMenu v1.0
+[11:07:45] [Server thread/INFO]: [playit-gg] Loading server plugin playit-gg v0.1.4
+[11:07:45] [Server thread/INFO]: [RutGonLenhPlugin] Loading server plugin RutGonLenhPlugin v1.0
+[11:07:45] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[11:07:45] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.1+6763-2e55f4f
+[11:07:45] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[11:07:45] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[11:07:45] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[11:07:45] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
+[11:07:47] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[11:07:48] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[11:07:48] [Server thread/INFO]: [KeoFramer] Enabling KeoFramer v1.0-SNAPSHOT
+[11:07:48] [Server thread/WARN]: [KeoFramer] Could not save areas.yml to plugins/KeoFramer/areas.yml because areas.yml already exists.
+[11:07:48] [Server thread/INFO]: [KeoFramer] Đã tải 3 khu vực.
+[11:07:48] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: keoframer [1.0-SNAPSHOT]
+[11:07:48] [Server thread/INFO]: [KeoFramer] Đã kết nối với PlaceholderAPI.
+[11:07:48] [Server thread/INFO]: [KeoFramer] KeoFramer v1.0-SNAPSHOT đã được bật!
+[11:07:48] [Server thread/INFO]: [TAB] Enabling TAB v5.2.2
+[11:07:48] [Server thread/INFO]: [TAB] [WARN] Player NamShad0w's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[11:07:48] [Server thread/INFO]: [TAB] Enabled in 301ms
+[11:07:48] [Server thread/INFO]: [KeoMenu] Enabling KeoMenu v1.0
+[11:07:48] [Server thread/INFO]: [KeoMenu] Đã kết nối thành công với KeoFramer API!
+[11:07:48] [Server thread/WARN]: [KeoMenu] Không tìm thấy Vault hoặc Economy Provider! Các tính năng liên quan đến tiền tệ sẽ không hoạt động.
+[11:07:48] [Server thread/INFO]: [KeoMenu] Đang tạo file mặc định: menus/main_menu.yml
+[11:07:48] [Server thread/WARN]: [KeoMenu] Không tìm thấy tài nguyên: menus/main_menu.yml trong JAR plugin.
+[11:07:48] [Server thread/INFO]: [KeoMenu] Đang tạo file mặc định: menus/shop_menu.yml
+[11:07:48] [Server thread/WARN]: [KeoMenu] Không tìm thấy tài nguyên: menus/shop_menu.yml trong JAR plugin.
+[11:07:48] [Server thread/INFO]: [KeoMenu] Đang tạo file mặc định: menus/example_menu.yml
+[11:07:48] [Server thread/WARN]: [KeoMenu] Không tìm thấy tài nguyên: menus/example_menu.yml trong JAR plugin.
+[11:07:48] [Server thread/INFO]: [KeoMenu] Đang tạo file mặc định: menus/candy_exchange_menu.yml
+[11:07:48] [Server thread/WARN]: [KeoMenu] Không tìm thấy tài nguyên: menus/candy_exchange_menu.yml trong JAR plugin.
+[11:07:48] [Server thread/INFO]: [KeoMenu] Đã tải menu: candy_exchange_menu
+[11:07:48] [Server thread/INFO]: [KeoMenu] Đã tải 1 menu.
+[11:07:48] [Server thread/INFO]: [playit-gg] Enabling playit-gg v0.1.4
+[11:07:48] [Server thread/INFO]: [RutGonLenhPlugin] Enabling RutGonLenhPlugin v1.0
+[11:07:48] [Thread-48/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret key found, checking
+[11:07:48] [Thread-48/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[11:07:49] [Server thread/INFO]: [RutGonLenhPlugin] RutGonLenhPlugin đã được bật!
+[11:07:49] [Server thread/INFO]: [RutGonLenhPlugin] Đã truy cập CommandMap thành công.
+[11:07:49] [Server thread/INFO]: [RutGonLenhPlugin] Đang tải các lệnh rút gọn từ commands.yml...
+[11:07:49] [Server thread/INFO]: [RutGonLenhPlugin] Đã đăng ký lệnh rút gọn: /haha -> say haha
+[11:07:49] [Server thread/INFO]: [RutGonLenhPlugin] Đã đăng ký lệnh rút gọn: /gay -> say gay
+[11:07:49] [Server thread/INFO]: [RutGonLenhPlugin] Đã đăng ký lệnh rút gọn: /duygay -> say duy sieu gay
+[11:07:49] [Server thread/INFO]: [RutGonLenhPlugin] Đã đăng ký lệnh rút gọn: /test -> say test
+[11:07:49] [Server thread/INFO]: [RutGonLenhPlugin] Đã tải xong các lệnh rút gọn.
+[11:07:49] [Server thread/INFO]: [RutGonLenhPlugin] Lệnh /rgl đã được đăng ký thành công.
+[11:07:49] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[11:07:49] [Server thread/INFO]: CONSOLE: Reload complete.
+[11:07:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8868ms or 177 ticks behind
+[11:07:49] [Server thread/INFO]: Timings Reset
+[11:07:49] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[11:07:50] [Thread-48/INFO]: [gg.playit.minecraft.PlayitKeysSetup] found minecraft java tunnel: virginia-needle.joinmc.link
+[11:07:50] [Thread-48/INFO]: [gg.playit.minecraft.PlayitManager] keys and tunnel setup
+[11:07:50] [Thread-48/INFO]: playit.gg: WARNING:  plugin is running with a guest account
+[11:07:50] [Thread-48/INFO]: playit.gg: see server console for setup URL
+[11:07:51] [Thread-48/INFO]: [gg.playit.minecraft.PlayitManager] setup playit.gg account: https://playit.gg/login/guest-account/0001000000000000000000159e42686a590601000000000283df85280eeae3f4bbd7c921f232df7fe35913d17f1f9d488f057ac1936ce993
+[11:07:51] [Thread-48/INFO]: playit.gg: tunnel setup
+[11:07:51] [Thread-48/INFO]: playit.gg: virginia-needle.joinmc.link
+[11:07:51] [Thread-48/WARN]: [gg.playit.control.ChannelSetup] Got IO error working with :control.playit.gg/2602:fbaf:848:0:0:0:0:1, error : java.net.SocketException: Network is unreachable
+[11:07:51] [Thread-48/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
+[11:08:01] [Server thread/INFO]: NamShad0w issued server command: /doikeo
+[11:11:24] [Thread-48/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=209.25.142.194:32858, peerAddr=185.165.44.22:34030, claimAddress=209.25.142.2:43783, claimToken=[44, 0, 60, -47, 25, -114, -62, -128, 90, -71, -91, 44, 22, -124, -18, -49, 10, 52, -65, -85, 7, 104, 106, 89, -36, 0, 0, 0, 0, 0, 21, -98, 66, 0, 0, 0, 0, 0, 71, -31, 13, 115, -65, -85, 7, 0, 0, 0, 0, 16, 0, 0, 0, 0, 0, 0, 0, 3, 0, 4, 24, -57, 8, -48, 23, -6, -49, -21, 64, -94, 25, -60, 74, -61, -25, -73], tunnelServerId=3, dataCenterId=16}
+[11:11:24] [Thread-48/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[11:11:24] [Thread-48/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.142.2:43783 to claim client
+[11:11:24] [nioEventLoopGroup-4-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[11:11:24] [nioEventLoopGroup-4-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[11:11:24] [nioEventLoopGroup-4-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[11:11:24] [nioEventLoopGroup-4-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnection, LegacyPingHandler=class net.minecraft.server.network.LegacyPingHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.PacketSplitter, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.EnumProtocolDirection, PacketPrepender=class net.minecraft.network.PacketPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.NetworkManagerServer, NetworkManager=class net.minecraft.network.NetworkManager, HandshakeListener=class net.minecraft.server.network.HandshakeListener, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=null}
+[11:11:24] [nioEventLoopGroup-4-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] failed to get Minecraft server from Bukkit.getServer()
+[11:11:24] [nioEventLoopGroup-4-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:19132
+[11:11:24] [nioEventLoopGroup-4-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[11:11:28] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[11:11:28] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[11:11:28] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[11:11:28] [Server thread/INFO]: Using 4 threads for Netty based IO
+[11:11:28] [Server thread/INFO]: [RutGonLenhPlugin] Disabling RutGonLenhPlugin v1.0
+[11:11:28] [Server thread/INFO]: [RutGonLenhPlugin] RutGonLenhPlugin đã được tắt!
+[11:11:28] [Server thread/INFO]: [RutGonLenhPlugin] Đã hủy đăng ký lệnh: haha
+[11:11:28] [Server thread/INFO]: [RutGonLenhPlugin] Đã hủy đăng ký lệnh: test
+[11:11:28] [Server thread/INFO]: [RutGonLenhPlugin] Đã hủy đăng ký lệnh: duygay
+[11:11:28] [Server thread/INFO]: [RutGonLenhPlugin] Đã hủy đăng ký lệnh: gay
+[11:11:28] [Server thread/INFO]: [playit-gg] Disabling playit-gg v0.1.4
+[11:11:28] [Server thread/INFO]: [KeoMenu] Disabling KeoMenu v1.0
+[11:11:28] [Server thread/INFO]: [KeoMenu] Plugin KeoMenu đã được vô hiệu hóa.
+[11:11:28] [Server thread/INFO]: [TAB] Disabling TAB v5.2.2
+[11:11:28] [Server thread/INFO]: [TAB] Disabled in 8ms
+[11:11:28] [Server thread/INFO]: [KeoFramer] Disabling KeoFramer v1.0-SNAPSHOT
+[11:11:28] [Server thread/INFO]: [KeoFramer] KeoFramer đã được tắt!
+[11:11:28] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.1+6763-2e55f4f
+[11:11:28] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[11:11:28] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
+[11:11:29] [Server thread/INFO]: Loaded 7 recipes
+[11:11:30] [Thread-48/INFO]: [gg.playit.minecraft.PlayitManager] control channel shutdown
+[11:11:31] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[11:11:31] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[11:11:31] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.1+6763-2e55f4f
+[11:11:32] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@30c2cc70]
+[11:11:32] [Server thread/INFO]: [KeoFramer] Loading server plugin KeoFramer v1.0-SNAPSHOT
+[11:11:32] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.2.2
+[11:11:32] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.1
+[11:11:32] [Server thread/INFO]: [KeoMenu] Loading server plugin KeoMenu v1.0
+[11:11:32] [Server thread/INFO]: [playit-gg] Loading server plugin playit-gg v0.1.4
+[11:11:32] [Server thread/INFO]: [RutGonLenhPlugin] Loading server plugin RutGonLenhPlugin v1.0
+[11:11:32] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[11:11:32] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[11:11:32] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[11:11:32] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[11:11:32] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[11:11:32] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.1+6763-2e55f4f
+[11:11:33] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[11:11:33] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[11:11:33] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[11:11:33] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
+[11:11:35] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[11:11:35] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[11:11:35] [Server thread/INFO]: [KeoFramer] Enabling KeoFramer v1.0-SNAPSHOT
+[11:11:35] [Server thread/WARN]: [KeoFramer] Could not save areas.yml to plugins/KeoFramer/areas.yml because areas.yml already exists.
+[11:11:35] [Server thread/INFO]: [KeoFramer] Đã tải 3 khu vực.
+[11:11:35] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: keoframer [1.0-SNAPSHOT]
+[11:11:35] [Server thread/INFO]: [KeoFramer] Đã kết nối với PlaceholderAPI.
+[11:11:35] [Server thread/INFO]: [KeoFramer] KeoFramer v1.0-SNAPSHOT đã được bật!
+[11:11:35] [Server thread/INFO]: [TAB] Enabling TAB v5.2.2
+[11:11:35] [Server thread/INFO]: [TAB] [WARN] Player NamShad0w's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[11:11:35] [Server thread/INFO]: [TAB] Enabled in 224ms
+[11:11:35] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.1
+[11:11:35] [Server thread/WARN]: [Essentials] Beginning Adventure locale file conversion.
+[11:11:36] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[11:11:36] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/config.yml
+[11:11:36] [Server thread/WARN]: [Essentials] Missing userdata folder, aborting
+[11:11:36] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/kits.yml
+[11:11:36] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[11:11:36] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[11:11:36] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
+[11:11:36] [Server thread/INFO]: [Essentials] Attempting to migrate ignore list to UUIDs
+[11:11:36] [Server thread/INFO]: [Essentials] Attempting to migrate legacy userdata keys to Configurate
+[11:11:36] [Server thread/INFO]: [Essentials] Done converting random teleport config.
+[11:11:36] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/worth.yml
+[11:11:36] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[11:11:36] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[11:11:36] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[11:11:36] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[11:11:36] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[11:11:36] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[11:11:36] [Server thread/INFO]: [Essentials] Selected 1.9-1.20.4 Potion Meta Provider as the provider for PotionMetaProvider
+[11:11:36] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[11:11:36] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[11:11:36] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[11:11:36] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[11:11:36] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[11:11:36] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[11:11:36] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[11:11:36] [Server thread/INFO]: [Essentials] Selected Legacy InventoryView Abstract Class ABI Provider as the provider for InventoryViewProvider
+[11:11:36] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[11:11:36] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[11:11:36] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[11:11:36] [Server thread/INFO]: [Essentials] Selected Legacy Damage Event Provider as the provider for DamageEventProvider
+[11:11:36] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[11:11:36] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[11:11:36] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[11:11:36] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/tpr.yml
+[11:11:37] [Server thread/INFO]: [Essentials] Loaded 43517 items from items.json.
+[11:11:37] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/custom_items.yml
+[11:11:37] [Server thread/INFO]: [Essentials] Using locale en
+[11:11:37] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[11:11:37] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[11:11:37] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[11:11:37] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[11:11:37] [Server thread/INFO]: [KeoMenu] Enabling KeoMenu v1.0
+[11:11:37] [Server thread/INFO]: [KeoMenu] Đã kết nối thành công với KeoFramer API!
+[11:11:37] [Server thread/INFO]: [KeoMenu] Đã kết nối thành công với Vault Economy!
+[11:11:37] [Server thread/INFO]: [KeoMenu] Đang tạo file mặc định: menus/main_menu.yml
+[11:11:37] [Server thread/WARN]: [KeoMenu] Không tìm thấy tài nguyên: menus/main_menu.yml trong JAR plugin.
+[11:11:37] [Server thread/INFO]: [KeoMenu] Đang tạo file mặc định: menus/shop_menu.yml
+[11:11:37] [Server thread/WARN]: [KeoMenu] Không tìm thấy tài nguyên: menus/shop_menu.yml trong JAR plugin.
+[11:11:37] [Server thread/INFO]: [KeoMenu] Đang tạo file mặc định: menus/example_menu.yml
+[11:11:37] [Server thread/WARN]: [KeoMenu] Không tìm thấy tài nguyên: menus/example_menu.yml trong JAR plugin.
+[11:11:37] [Server thread/INFO]: [KeoMenu] Đang tạo file mặc định: menus/candy_exchange_menu.yml
+[11:11:37] [Server thread/WARN]: [KeoMenu] Không tìm thấy tài nguyên: menus/candy_exchange_menu.yml trong JAR plugin.
+[11:11:37] [Server thread/INFO]: [KeoMenu] Đã tải menu: candy_exchange_menu
+[11:11:37] [Server thread/INFO]: [KeoMenu] Đã tải 1 menu.
+[11:11:37] [Server thread/INFO]: [playit-gg] Enabling playit-gg v0.1.4
+[11:11:37] [Thread-63/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret key found, checking
+[11:11:37] [Thread-63/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[11:11:37] [Server thread/INFO]: [RutGonLenhPlugin] Enabling RutGonLenhPlugin v1.0
+[11:11:37] [Server thread/INFO]: [RutGonLenhPlugin] RutGonLenhPlugin đã được bật!
+[11:11:37] [Server thread/INFO]: [RutGonLenhPlugin] Đã truy cập CommandMap thành công.
+[11:11:37] [Server thread/INFO]: [RutGonLenhPlugin] Đang tải các lệnh rút gọn từ commands.yml...
+[11:11:37] [Server thread/INFO]: [RutGonLenhPlugin] Đã đăng ký lệnh rút gọn: /haha -> say haha
+[11:11:37] [Server thread/INFO]: [RutGonLenhPlugin] Đã đăng ký lệnh rút gọn: /gay -> say gay
+[11:11:37] [Server thread/INFO]: [RutGonLenhPlugin] Đã đăng ký lệnh rút gọn: /duygay -> say duy sieu gay
+[11:11:37] [Server thread/INFO]: [RutGonLenhPlugin] Đã đăng ký lệnh rút gọn: /test -> say test
+[11:11:37] [Server thread/INFO]: [RutGonLenhPlugin] Đã tải xong các lệnh rút gọn.
+[11:11:37] [Server thread/INFO]: [RutGonLenhPlugin] Lệnh /rgl đã được đăng ký thành công.
+[11:11:38] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[11:11:38] [Server thread/INFO]: CONSOLE: Reload complete.
+[11:11:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9674ms or 193 ticks behind
+[11:11:38] [Server thread/INFO]: Timings Reset
+[11:11:38] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[11:11:38] [Craft Scheduler Thread - 9 - Essentials/INFO]: [Essentials] Fetching version information...
+[11:11:38] [Craft Scheduler Thread - 10 - Vault/INFO]: [Vault] Checking for Updates ... 
+[11:11:38] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[11:11:38] [Craft Scheduler Thread - 10 - Vault/INFO]: [Vault] No new version available
+[11:11:39] [Thread-63/INFO]: [gg.playit.minecraft.PlayitKeysSetup] found minecraft java tunnel: virginia-needle.joinmc.link
+[11:11:39] [Thread-63/INFO]: [gg.playit.minecraft.PlayitManager] keys and tunnel setup
+[11:11:39] [Thread-63/INFO]: playit.gg: WARNING:  plugin is running with a guest account
+[11:11:39] [Thread-63/INFO]: playit.gg: see server console for setup URL
+[11:11:39] [Thread-63/INFO]: [gg.playit.minecraft.PlayitManager] setup playit.gg account: https://playit.gg/login/guest-account/0001000000000000000000159e42686a59eb0100000000023020c13f2e739e1668c77237df1753a6adf6caeb88ed332e21e74cb5a589e481
+[11:11:39] [Thread-63/INFO]: playit.gg: tunnel setup
+[11:11:39] [Thread-63/INFO]: playit.gg: virginia-needle.joinmc.link
+[11:11:39] [Thread-63/WARN]: [gg.playit.control.ChannelSetup] Got IO error working with :control.playit.gg/2602:fbaf:848:0:0:0:0:1, error : java.net.SocketException: Network is unreachable
+[11:11:40] [Thread-63/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
+[11:11:46] [Server thread/INFO]: NamShad0w issued server command: /keomenu open candy_exchange_menu
+[11:11:50] [Server thread/INFO]: NamShad0w issued server command: /doikeo
+[11:13:25] [Server thread/INFO]: NamShad0w issued server command: /kf reload
+[11:13:25] [Server thread/WARN]: [KeoFramer] Could not save areas.yml to plugins/KeoFramer/areas.yml because areas.yml already exists.
+[11:13:25] [Server thread/INFO]: [KeoFramer] Đã tải 3 khu vực.
+[11:13:29] [Server thread/INFO]: NamShad0w issued server command: /doikeo
+[11:13:30] [Server thread/INFO]: NamShad0w issued server command: /keomenu open candy_exchange_menu
+[11:15:41] [Thread-63/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[11:17:58] [Thread-63/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=209.25.140.194:32858, peerAddr=146.70.196.85:51820, claimAddress=209.25.142.2:43783, claimToken=[44, 0, 60, -47, 25, -116, -62, -128, 90, -110, 70, -60, 85, -54, 108, -39, -18, -79, -121, -85, 7, 104, 106, 91, 102, 0, 0, 0, 0, 0, 21, -98, 66, 0, 0, 0, 0, 0, 71, -31, 13, 104, -121, -85, 7, 0, 0, 0, 0, 45, 0, 0, 0, 0, 0, 0, 0, 1, 0, 3, -82, 123, 24, -43, -128, -5, 38, 127, -69, -93, 62, -118, 88, -100, 20, 14], tunnelServerId=1, dataCenterId=45}
+[11:17:58] [Thread-63/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[11:17:58] [Thread-63/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.142.2:43783 to claim client
+[11:17:58] [nioEventLoopGroup-5-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[11:17:58] [nioEventLoopGroup-5-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[11:17:58] [nioEventLoopGroup-5-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[11:17:58] [nioEventLoopGroup-5-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnection, LegacyPingHandler=class net.minecraft.server.network.LegacyPingHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.PacketSplitter, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.EnumProtocolDirection, PacketPrepender=class net.minecraft.network.PacketPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.NetworkManagerServer, NetworkManager=class net.minecraft.network.NetworkManager, HandshakeListener=class net.minecraft.server.network.HandshakeListener, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=null}
+[11:17:58] [nioEventLoopGroup-5-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] failed to get Minecraft server from Bukkit.getServer()
+[11:17:58] [nioEventLoopGroup-5-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:19132
+[11:17:58] [nioEventLoopGroup-5-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[11:19:43] [Thread-63/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[11:23:43] [Thread-63/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[11:24:44] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[11:24:44] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[11:24:44] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[11:24:44] [Server thread/INFO]: Using 4 threads for Netty based IO
+[11:24:44] [Server thread/INFO]: [RutGonLenhPlugin] Disabling RutGonLenhPlugin v1.0
+[11:24:44] [Server thread/INFO]: [RutGonLenhPlugin] RutGonLenhPlugin đã được tắt!
+[11:24:44] [Server thread/INFO]: [RutGonLenhPlugin] Đã hủy đăng ký lệnh: haha
+[11:24:44] [Server thread/INFO]: [RutGonLenhPlugin] Đã hủy đăng ký lệnh: test
+[11:24:44] [Server thread/INFO]: [RutGonLenhPlugin] Đã hủy đăng ký lệnh: duygay
+[11:24:44] [Server thread/INFO]: [RutGonLenhPlugin] Đã hủy đăng ký lệnh: gay
+[11:24:44] [Server thread/INFO]: [playit-gg] Disabling playit-gg v0.1.4
+[11:24:44] [Server thread/INFO]: [KeoMenu] Disabling KeoMenu v1.0
+[11:24:44] [Server thread/INFO]: [KeoMenu] Plugin KeoMenu đã được vô hiệu hóa.
+[11:24:44] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.1
+[11:24:44] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[11:24:44] [Server thread/ERROR]: [Essentials] There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[11:24:44] [Server thread/INFO]: [TAB] Disabling TAB v5.2.2
+[11:24:44] [Server thread/INFO]: [TAB] Disabled in 4ms
+[11:24:44] [Server thread/INFO]: [KeoFramer] Disabling KeoFramer v1.0-SNAPSHOT
+[11:24:44] [Server thread/INFO]: [KeoFramer] KeoFramer đã được tắt!
+[11:24:44] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.1+6763-2e55f4f
+[11:24:44] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[11:24:44] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
+[11:24:44] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[11:24:44] [Server thread/INFO]: Loaded 7 recipes
+[11:24:46] [Thread-63/INFO]: [gg.playit.minecraft.PlayitManager] control channel shutdown
+[11:24:47] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[11:24:47] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[11:24:47] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.1+6763-2e55f4f
+[11:24:47] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@577691c2]
+[11:24:47] [Server thread/INFO]: [KeoFramer] Loading server plugin KeoFramer v1.0-SNAPSHOT
+[11:24:47] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.2.2
+[11:24:47] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.1
+[11:24:47] [Server thread/INFO]: [KeoMenu] Loading server plugin KeoMenu v1.0
+[11:24:47] [Server thread/INFO]: [playit-gg] Loading server plugin playit-gg v0.1.4
+[11:24:47] [Server thread/INFO]: [RutGonLenhPlugin] Loading server plugin RutGonLenhPlugin v1.0
+[11:24:47] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[11:24:47] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[11:24:48] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[11:24:48] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[11:24:48] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[11:24:48] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.1+6763-2e55f4f
+[11:24:48] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[11:24:48] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[11:24:48] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[11:24:48] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
+[11:24:50] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[11:24:50] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[11:24:50] [Server thread/INFO]: [KeoFramer] Enabling KeoFramer v1.0-SNAPSHOT
+[11:24:50] [Server thread/WARN]: [KeoFramer] Could not save areas.yml to plugins/KeoFramer/areas.yml because areas.yml already exists.
+[11:24:50] [Server thread/INFO]: [KeoFramer] Đã tải 3 khu vực.
+[11:24:50] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: keoframer [1.0-SNAPSHOT]
+[11:24:50] [Server thread/INFO]: [KeoFramer] Đã kết nối với PlaceholderAPI.
+[11:24:50] [Server thread/INFO]: [KeoFramer] KeoFramer v1.0-SNAPSHOT đã được bật!
+[11:24:50] [Server thread/INFO]: [TAB] Enabling TAB v5.2.2
+[11:24:51] [Server thread/INFO]: [TAB] [WARN] Player NamShad0w's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[11:24:51] [Server thread/INFO]: [TAB] Enabled in 250ms
+[11:24:51] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.1
+[11:24:51] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[11:24:51] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[11:24:51] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[11:24:51] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
+[11:24:51] [Server thread/INFO]: [Essentials] Found 1 files to convert...
+[11:24:51] [Server thread/INFO]: [Essentials] Converted 0/1
+[11:24:51] [Server thread/INFO]: [Essentials] Ban format update complete.
+[11:24:51] [Server thread/INFO]: [Essentials] Attempting to migrate ignore list to UUIDs
+[11:24:51] [Server thread/INFO]: [Essentials] Done converting ignore list.
+[11:24:51] [Server thread/INFO]: [Essentials] Attempting to migrate legacy userdata keys to Configurate
+[11:24:51] [Server thread/INFO]: [Essentials] Done converting legacy userdata keys to Configurate.
+[11:24:51] [Server thread/INFO]: [Essentials] Done converting mail list.
+[11:24:51] [Server thread/INFO]: [Essentials] #===========================================================================#
+[11:24:51] [Server thread/INFO]: [Essentials]  EssentialsX will now purge any NPC accounts which were incorrectly created.
+[11:24:51] [Server thread/INFO]: [Essentials]  Only NPC accounts with the default starting balance will be deleted. If
+[11:24:51] [Server thread/INFO]: [Essentials]  they turn out to be valid NPC accounts, they will be re-created as needed.
+[11:24:51] [Server thread/INFO]: [Essentials]  Any files deleted here will be backed up to the 
+[11:24:51] [Server thread/INFO]: [Essentials]  "plugins/Essentials/userdata-npc-backup" folder. If you notice any files
+[11:24:51] [Server thread/INFO]: [Essentials]  have been purged incorrectly, you should restore it from the backup and
+[11:24:51] [Server thread/INFO]: [Essentials]  report it to us on GitHub:
+[11:24:51] [Server thread/INFO]: [Essentials]  https://github.com/EssentialsX/Essentials/issues/new/choose
+[11:24:51] [Server thread/INFO]: [Essentials] 
+[11:24:51] [Server thread/INFO]: [Essentials]  NOTE: This is a one-time process and will take several minutes if you have
+[11:24:51] [Server thread/INFO]: [Essentials]  a lot of userdata files! If you interrupt this process, EssentialsX will
+[11:24:51] [Server thread/INFO]: [Essentials]  skip the process until you rename or remove the backup folder.
+[11:24:51] [Server thread/INFO]: [Essentials] #===========================================================================#
+[11:24:51] [Server thread/INFO]: [Essentials] Found ~1 files under "plugins/Essentials/userdata"...
+[11:24:51] [Server thread/INFO]: [Essentials] #===========================================================================#
+[11:24:51] [Server thread/INFO]: [Essentials]  EssentialsX has finished purging NPC accounts.
+[11:24:51] [Server thread/INFO]: [Essentials] 
+[11:24:51] [Server thread/INFO]: [Essentials]  Deleted accounts: 0
+[11:24:51] [Server thread/INFO]: [Essentials]  Total accounts processed: 1
+[11:24:51] [Server thread/INFO]: [Essentials] 
+[11:24:51] [Server thread/INFO]: [Essentials]  Purged accounts have been backed up to
+[11:24:51] [Server thread/INFO]: [Essentials]  "plugins/Essentials/userdata-npc-backup", and can be restored from there
+[11:24:51] [Server thread/INFO]: [Essentials]  if needed. Please report any files which have been incorrectly deleted
+[11:24:51] [Server thread/INFO]: [Essentials]  to us on GitHub:
+[11:24:51] [Server thread/INFO]: [Essentials]  https://github.com/EssentialsX/Essentials/issues/new/choose
+[11:24:51] [Server thread/INFO]: [Essentials] #===========================================================================#
+[11:24:51] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[11:24:51] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[11:24:51] [Server thread/INFO]: [Essentials] Selected Legacy Damage Event Provider as the provider for DamageEventProvider
+[11:24:51] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[11:24:51] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[11:24:51] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[11:24:51] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[11:24:51] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[11:24:51] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[11:24:51] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[11:24:51] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[11:24:51] [Server thread/INFO]: [Essentials] Selected Legacy InventoryView Abstract Class ABI Provider as the provider for InventoryViewProvider
+[11:24:51] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[11:24:51] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[11:24:51] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[11:24:51] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[11:24:51] [Server thread/INFO]: [Essentials] Selected 1.9-1.20.4 Potion Meta Provider as the provider for PotionMetaProvider
+[11:24:51] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[11:24:51] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[11:24:51] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[11:24:51] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[11:24:51] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[11:24:51] [Server thread/INFO]: [Essentials] Loaded 43517 items from items.json.
+[11:24:51] [Server thread/INFO]: [Essentials] Using locale en
+[11:24:51] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[11:24:51] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[11:24:51] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[11:24:51] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[11:24:51] [Server thread/INFO]: [KeoMenu] Enabling KeoMenu v1.0
+[11:24:51] [Server thread/INFO]: [KeoMenu] Đã kết nối thành công với KeoFramer API!
+[11:24:51] [Server thread/INFO]: [KeoMenu] Đã kết nối thành công với Vault Economy!
+[11:24:51] [Server thread/INFO]: [KeoMenu] Đang tạo file mặc định: menus/main_menu.yml
+[11:24:51] [Server thread/WARN]: [KeoMenu] Không tìm thấy tài nguyên: menus/main_menu.yml trong JAR plugin.
+[11:24:51] [Server thread/INFO]: [KeoMenu] Đang tạo file mặc định: menus/shop_menu.yml
+[11:24:51] [Server thread/WARN]: [KeoMenu] Không tìm thấy tài nguyên: menus/shop_menu.yml trong JAR plugin.
+[11:24:51] [Server thread/INFO]: [KeoMenu] Đang tạo file mặc định: menus/example_menu.yml
+[11:24:51] [Server thread/WARN]: [KeoMenu] Không tìm thấy tài nguyên: menus/example_menu.yml trong JAR plugin.
+[11:24:51] [Server thread/INFO]: [KeoMenu] Đang tạo file mặc định: menus/candy_exchange_menu.yml
+[11:24:51] [Server thread/WARN]: [KeoMenu] Không tìm thấy tài nguyên: menus/candy_exchange_menu.yml trong JAR plugin.
+[11:24:51] [Server thread/INFO]: [KeoMenu] Đã tải menu: candy_exchange_menu
+[11:24:51] [Server thread/INFO]: [KeoMenu] Đã tải 1 menu.
+[11:24:51] [Server thread/INFO]: [playit-gg] Enabling playit-gg v0.1.4
+[11:24:52] [Thread-85/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret key found, checking
+[11:24:52] [Thread-85/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[11:24:52] [Server thread/INFO]: [RutGonLenhPlugin] Enabling RutGonLenhPlugin v1.0
+[11:24:52] [Server thread/INFO]: [RutGonLenhPlugin] RutGonLenhPlugin đã được bật!
+[11:24:52] [Server thread/INFO]: [RutGonLenhPlugin] Đã truy cập CommandMap thành công.
+[11:24:52] [Server thread/INFO]: [RutGonLenhPlugin] Đang tải các lệnh rút gọn từ commands.yml...
+[11:24:52] [Server thread/INFO]: [RutGonLenhPlugin] Đã đăng ký lệnh rút gọn: /haha -> say haha
+[11:24:52] [Server thread/INFO]: [RutGonLenhPlugin] Đã đăng ký lệnh rút gọn: /gay -> say gay
+[11:24:52] [Server thread/INFO]: [RutGonLenhPlugin] Đã đăng ký lệnh rút gọn: /duygay -> say duy sieu gay
+[11:24:52] [Server thread/INFO]: [RutGonLenhPlugin] Đã đăng ký lệnh rút gọn: /test -> say test
+[11:24:52] [Server thread/INFO]: [RutGonLenhPlugin] Đã tải xong các lệnh rút gọn.
+[11:24:52] [Server thread/INFO]: [RutGonLenhPlugin] Lệnh /rgl đã được đăng ký thành công.
+[11:24:52] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[11:24:52] [Server thread/INFO]: CONSOLE: Reload complete.
+[11:24:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7955ms or 159 ticks behind
+[11:24:52] [Server thread/INFO]: Timings Reset
+[11:24:52] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[11:24:52] [Craft Scheduler Thread - 14 - Vault/INFO]: [Vault] Checking for Updates ... 
+[11:24:52] [Craft Scheduler Thread - 13 - Essentials/INFO]: [Essentials] Fetching version information...
+[11:24:52] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[11:24:52] [Craft Scheduler Thread - 14 - Vault/INFO]: [Vault] No new version available
+[11:24:53] [Thread-85/INFO]: [gg.playit.minecraft.PlayitKeysSetup] found minecraft java tunnel: virginia-needle.joinmc.link
+[11:24:53] [Thread-85/INFO]: [gg.playit.minecraft.PlayitManager] keys and tunnel setup
+[11:24:53] [Thread-85/INFO]: playit.gg: WARNING:  plugin is running with a guest account
+[11:24:53] [Thread-85/INFO]: playit.gg: see server console for setup URL
+[11:24:54] [Thread-85/INFO]: [gg.playit.minecraft.PlayitManager] setup playit.gg account: https://playit.gg/login/guest-account/0001000000000000000000159e42686a5d0601000000000209934bc6bb4a88f94cadb5b805f9a59510688c2aa73052dea6055fa2a46cf2a2
+[11:24:54] [Thread-85/INFO]: playit.gg: tunnel setup
+[11:24:54] [Thread-85/INFO]: playit.gg: virginia-needle.joinmc.link
+[11:24:54] [Server thread/INFO]: NamShad0w issued server command: /keomenu open candy_exchange_menu
+[11:24:54] [Thread-85/WARN]: [gg.playit.control.ChannelSetup] Got IO error working with :control.playit.gg/2602:fbaf:848:0:0:0:0:1, error : java.net.SocketException: Network is unreachable
+[11:24:55] [Thread-85/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
+[11:25:05] [Server thread/INFO]: NamShad0w issued server command: /keomenu open candy_exchange_menu
+[11:25:41] [Server thread/INFO]: NamShad0w issued server command: /keomenu open candy_exchange_menu
+[11:28:56] [Thread-85/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[11:28:58] [Server thread/INFO]: NamShad0w issued server command: /keomenu open candy_exchange_menu
+[11:29:31] [Server thread/INFO]: NamShad0w issued server command: /keomenu reload
+[11:29:31] [Server thread/INFO]: [KeoMenu] Đã tải menu: candy_exchange_menu
+[11:29:31] [Server thread/INFO]: [KeoMenu] Đã tải 1 menu.
+[11:29:32] [Server thread/INFO]: NamShad0w issued server command: /keomenu open candy_exchange_menu
+[11:29:42] [Server thread/INFO]: NamShad0w issued server command: /papi ecloud download Player
+[11:29:43] [placeholderapi-io-#1/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[11:29:48] [Server thread/INFO]: NamShad0w issued server command: /papi reload
+[11:29:48] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[11:29:48] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[11:29:48] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
+[11:29:50] [Server thread/INFO]: NamShad0w issued server command: /keomenu open candy_exchange_menu
+[11:30:48] [Server thread/INFO]: NamShad0w issued server command: /keomenu open candy_exchange_menu
+[11:32:56] [Thread-85/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[11:36:56] [Thread-85/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[11:37:25] [Server thread/INFO]: NamShad0w issued server command: /keomenu open candy_exchange_menu
+[11:39:13] [Server thread/INFO]: NamShad0w lost connection: Disconnected
+[11:39:13] [Server thread/INFO]: NamShad0w left the game
+[11:39:13] [Server thread/INFO]: Stopping server
+[11:39:13] [Server thread/INFO]: [RutGonLenhPlugin] Disabling RutGonLenhPlugin v1.0
+[11:39:13] [Server thread/INFO]: [RutGonLenhPlugin] RutGonLenhPlugin đã được tắt!
+[11:39:13] [Server thread/INFO]: [RutGonLenhPlugin] Đã hủy đăng ký lệnh: haha
+[11:39:13] [Server thread/INFO]: [RutGonLenhPlugin] Đã hủy đăng ký lệnh: test
+[11:39:13] [Server thread/INFO]: [RutGonLenhPlugin] Đã hủy đăng ký lệnh: duygay
+[11:39:13] [Server thread/INFO]: [RutGonLenhPlugin] Đã hủy đăng ký lệnh: gay
+[11:39:13] [Server thread/INFO]: [playit-gg] Disabling playit-gg v0.1.4
+[11:39:13] [Server thread/INFO]: [KeoMenu] Disabling KeoMenu v1.0
+[11:39:13] [Server thread/INFO]: [KeoMenu] Plugin KeoMenu đã được vô hiệu hóa.
+[11:39:13] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.1
+[11:39:13] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[11:39:13] [Server thread/INFO]: [TAB] Disabling TAB v5.2.2
+[11:39:13] [Server thread/INFO]: [TAB] Disabled in 0ms
+[11:39:13] [Server thread/INFO]: [KeoFramer] Disabling KeoFramer v1.0-SNAPSHOT
+[11:39:13] [Server thread/INFO]: [KeoFramer] KeoFramer đã được tắt!
+[11:39:13] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.1+6763-2e55f4f
+[11:39:13] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[11:39:13] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
+[11:39:13] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[11:39:13] [Server thread/INFO]: Saving players
+[11:39:13] [Server console handler/ERROR]: Caught previously unhandled exception :
+java.io.IOError: java.io.IOException: Input/output error
+	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:170) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:110) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:61) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.LineReaderImpl.doReadBinding(LineReaderImpl.java:923) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.LineReaderImpl.readBinding(LineReaderImpl.java:956) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:651) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:468) ~[jline-reader-3.20.0.jar:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:158) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:141) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:102) ~[paper-1.20.1.jar:git-Paper-196]
+Caused by: java.io.IOException: Input/output error
+	at java.io.FileInputStream.read0(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:231) ~[?:?]
+	at org.jline.terminal.impl.AbstractPty$PtyInputStream.read(AbstractPty.java:73) ~[jline-terminal-3.21.0.jar:?]
+	at org.jline.utils.NonBlockingInputStream.read(NonBlockingInputStream.java:62) ~[jline-terminal-3.21.0.jar:?]
+	at org.jline.utils.NonBlocking$NonBlockingInputStreamReader.read(NonBlocking.java:168) ~[jline-terminal-3.21.0.jar:?]
+	at org.jline.utils.NonBlockingReader.read(NonBlockingReader.java:57) ~[jline-terminal-3.21.0.jar:?]
+	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:160) ~[jline-reader-3.20.0.jar:?]
+	... 9 more
+[11:39:13] [Server thread/INFO]: Saving worlds
+[11:39:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[11:39:13] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[11:39:13] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[11:39:13] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[11:39:14] [Server thread/INFO]: [ChunkHolderManager] Saved 5 block chunks, 126 entity chunks, 0 poi chunks in world 'world' in 0.32s
+[11:39:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[11:39:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[11:39:14] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[11:39:14] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[11:39:14] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[11:39:14] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 15 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
+[11:39:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:39:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[11:39:14] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[11:39:14] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[11:39:14] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[11:39:14] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.02s
+[11:39:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:39:14] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[11:39:14] [Server thread/INFO]: Flushing Chunk IO
+[11:39:14] [Server thread/INFO]: Closing Thread Pool
+[11:39:14] [Server thread/INFO]: Closing Server

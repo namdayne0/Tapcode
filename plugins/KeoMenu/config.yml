@@ -1,0 +1,9 @@
+# Cấu hình chung cho KeoMenu
+debug_mode: true
+
+# Danh sách các loại kẹo được hỗ trợ (cần cập nhật thủ công khi KeoFramer có kẹo mới)
+supported_candy_types:
+  - keo_do
+  - keo_xanh
+  - keo_vang
+  - keo_tim # Nếu bạn thêm kẹo tím vào KeoFramer, bạn cần thêm nó vào đây

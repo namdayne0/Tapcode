@@ -1,0 +1,24 @@
+name: KeoFramer
+version: ${project.version}
+main: com.namdz.keoframer.KeoFramer
+api-version: 1.17
+author: NamDz
+description: Kiếm kẹo và tạo các khu vực tương tác đặc biệt.
+depend: [PlaceholderAPI, WorldEdit]
+
+commands:
+  kf:
+    description: Lệnh chính của KeoFramer.
+    aliases: [keoframer]
+  kfreload:
+    description: Tải lại plugin KeoFramer.
+
+permissions:
+  keoframer.admin:
+    default: op
+  keoframer.reload:
+    default: op
+  keoframer.addcandy.*:
+    default: op
+  keoframer.area.*:
+    default: false
